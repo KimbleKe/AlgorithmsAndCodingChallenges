@@ -10,7 +10,7 @@ def solution(K, A):
     count = 0
     maxDeque = deque() # indices of potential max values
     minDeque = deque() # indices of potential min values
- 
+
     for right in range(N):
         # update maxDeque: remove all smaller values from the end
         while maxDeque and A[maxDeque[-1]] < A[right]:
@@ -37,19 +37,3 @@ def solution(K, A):
             return 1_000_000_000
  
     return count
-
-if __name__ == "__main__":
-    import sys
-
-    if len(sys.argv) != 2:
-        # example input file contains (2, [3, 5, 7, 6, 3]) where K = 2 and A = [3, 5, 7, 6, 3]
-        print("Usage: python3 CountBoundedSlices.py input.txt")
-        sys.exit(1)
-
-    input_file = sys.argv[1]
-    with open(input_file, 'r') as f:
-        line = f.read().strip()
-        K, A = eval(line) 
-
-    result = solution(K, A)
-    print(result)
