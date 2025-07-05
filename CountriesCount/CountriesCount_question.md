@@ -22,8 +22,8 @@ Matrix A describes a map that is colored with five colors. The areas on the map 
 
 ![countries_count_img](./countries_count.png)
 
-<pre>
 Write a function
+<pre>
   def solution(A)
 </pre>
 
