@@ -14,7 +14,7 @@ class Tree:
 def solution(T: Tree) -> int:
     max_zigzag = 0  # Global variable to track longest zigzag
    
-    def dfs(node: Tree, from_left: bool, turns: int):
+    def dfs(node: Optional[Tree], from_left: bool, turns: int):
         nonlocal max_zigzag
 
         if not node:
