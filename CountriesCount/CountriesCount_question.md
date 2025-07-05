@@ -22,9 +22,10 @@ Matrix A describes a map that is colored with five colors. The areas on the map 
 
 ![countries_count_img](./countries_count.png)
 
+<pre>
 Write a function
-
-def solution(A)
+  def solution(A)
+</pre>
 
 that, given a zero-indexed matrix A consisting of N rows and M columns of integers, returns the number of different countries to which the areas of the map described by matrix A belong.
 
@@ -32,6 +33,6 @@ For example, given matrix A consisting of seven rows and three columns correspon
 
 Write an efficient algorithm for the following assumptions:
 
-N and M are integers within the range [1..300,000];
-the number of elements in matrix A is within the range [1..300,000];
-each element of matrix A is an integer within the range [−1,000,000,000..1,000,000,000].
+- N and M are integers within the range [1..300,000];
+- the number of elements in matrix A is within the range [1..300,000];
+- each element of matrix A is an integer within the range [−1,000,000,000..1,000,000,000].
