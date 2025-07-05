@@ -43,7 +43,7 @@ if __name__ == "__main__":
 
     if len(sys.argv) != 2:
         # example input file contains (2, [3, 5, 7, 6, 3]) where K = 2 and A = [3, 5, 7, 6, 3]
-        print("Usage: python3 codingSolutions/CountBoundedSlices.py codingSolutions/input.txt")
+        print("Usage: python3 CountBoundedSlices.py input.txt")
         sys.exit(1)
 
     input_file = sys.argv[1]
