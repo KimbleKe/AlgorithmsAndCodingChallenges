@@ -11,6 +11,7 @@ A path in a binary tree is a non-empty sequence of nodes that one can traverse b
 The height of a binary tree is defined as the length of the longest possible path in the tree. In particular, a tree consisting of only one node has height 0 and, conventionally, an empty tree has height −1. For example, the tree shown in the above figure is of height 2.
 
 __Problem__ <br>
+
 Write a function:
 <pre>
   def solution(T)
@@ -19,6 +20,7 @@ Write a function:
 that, given a non-empty binary tree T consisting of N nodes, returns its height. For example, given tree T shown in the figure above, the function should return 2, as explained above. Note that the values contained in the nodes are not relevant in this task.
 
 __Technical details__ <br>
+
 A binary tree can be given using a pointer data structure. Assume that the following declarations are given:
 <pre>
 from dataclasses import dataclass, field
@@ -38,6 +40,7 @@ For the purpose of entering your own test cases, you can denote a tree recursive
 </pre>
 
 __Assumptions__ <br>
+
 Write an efficient algorithm for the following assumptions:
 - N is an integer within the range [1..1,000];
 - the height of tree T (number of edges on the longest path from root to leaf) is within the range [0..500].
