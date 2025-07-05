@@ -17,7 +17,7 @@ A[5][0] = 1    A[5][1] = 4    A[5][2] = 4
 A[6][0] = 4    A[6][1] = 1    A[6][2] = 1
 Matrix A describes a map that is colored with five colors. The areas on the map belong to eleven different countries (C1−C11), as shown in the following figure:
 
-![countries_count_img](countries_count.png)
+![countries_count_img](./countries_count.png)
 
 Write a function
 
