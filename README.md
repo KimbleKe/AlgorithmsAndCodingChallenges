@@ -1,4 +1,4 @@
-Coding challenges reference
+Coding challenges and solutions reference
 
 Other resources:
 - https://github.com/topics/coding-challenge
