@@ -32,3 +32,4 @@ Let me know if you want a decision tree for which to use when.
 
 Resources:
 - https://www.geeksforgeeks.org/dsa/sorting-algorithms/
+- https://www.youtube.com/watch?v=rbbTd-gkajw 
