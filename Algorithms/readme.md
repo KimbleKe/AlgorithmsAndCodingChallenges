@@ -166,3 +166,169 @@ To build a well-rounded mastery of algorithms (especially useful for problem-sol
 7. **Geometry / Bit Manipulation / Others**
 
 ---
+
+After getting familiar with above algorithms, to expand knowledge and become a master of algorithms, then also need to learn below that mastery requires going **beyond implementation**—toward deep understanding, strategic application, and mathematical rigor. Here's what to add:
+
+---
+
+## 🧠 1. **Mathematical Foundations**
+
+Mastery of algorithms is built on math. Add:
+
+* **Discrete Mathematics**:
+
+  * Sets, relations, functions
+  * Graph theory
+  * Combinatorics
+* **Probability & Statistics**:
+
+  * Expected value (esp. in randomized algorithms)
+  * Probabilistic analysis (e.g., expected time of QuickSort)
+* **Number Theory**:
+
+  * Modular arithmetic, GCD/LCM
+  * Modular inverse, Chinese Remainder Theorem
+* **Linear Algebra** (for advanced topics like ML or FFT)
+* **Recurrence Relations**:
+
+  * Solving time complexities analytically (e.g., Master Theorem)
+
+---
+
+## 🏗️ 2. **Algorithm Design Paradigms**
+
+Understand and apply **strategies** used to derive algorithms:
+
+* **Greedy**
+* **Divide & Conquer**
+* **Dynamic Programming** (incl. Memoization vs Tabulation)
+* **Backtracking & Branch and Bound**
+* **Bitmasking & State Compression**
+* **Sliding Window / Two Pointers**
+* **Meet in the Middle**
+* **Amortized Analysis** (e.g., Union-Find with path compression)
+* **Randomized Algorithms**
+* **Online Algorithms** (e.g., caching, streaming)
+* **Approximation Algorithms** (for NP-Hard problems)
+
+---
+
+## 🧰 3. **Complexity Analysis & Lower Bounds**
+
+* **Time and Space Complexity Analysis**
+* **Asymptotic Notations**: Big-O, Theta, Omega
+* **Best / Avg / Worst Case**
+* **Lower bounds for problems** (e.g., comparison sort is Ω(N log N))
+
+---
+
+## 🧵 4. **Problem Categories to Master**
+
+Each of these requires unique algorithmic thinking:
+
+* **Subarrays/Substrings/Sliding Window**
+* **Counting/Prefix Sums/Difference Arrays**
+* **Greedy Intervals & Scheduling**
+* **Matrix manipulation**
+* **Range Queries** (Segment Tree, Sparse Table, RMQ)
+* **Trees and Binary Lifting**
+* **Graphs and Shortest Paths**
+* **Flows and Cuts** (Min-Cost Max-Flow, Edmonds-Karp)
+* **Combinatorics on Numbers and Strings**
+* **NP-Complete Problems** (e.g., SAT, TSP, Vertex Cover)
+* **Online Algorithms & Streaming**
+* **Game Theory** (Nim Game, Grundy Numbers)
+
+---
+
+## 📚 5. **Read & Analyze Classic Algorithms**
+
+Learn the **story and intuition** behind:
+
+* Dijkstra, A\*, Bellman-Ford
+* Floyd-Warshall, Warshall's Algorithm
+* Edmonds-Karp, Dinic’s
+* Tarjan’s, Kosaraju’s, KMP
+* Suffix Trees / Automata
+* Fast Fourier Transform (FFT)
+* Persistent Segment Trees, Heavy-Light Decomposition
+* Treaps, Splay Trees, Link-Cut Trees
+
+---
+
+## 🛠️ 6. **Master Data Structures (Classic + Advanced)**
+
+Already covered basics? Add:
+
+* **Advanced Trees**:
+
+  * AVL, Red-Black Trees
+  * Treap, Splay Tree, Link-Cut Tree
+* **Hashing**:
+
+  * Rolling hash, Perfect hashing
+* **Heaps**:
+
+  * Pairing heap, Fibonacci heap
+* **Persistent Data Structures**
+* **Union-Find with Path Compression + Union by Rank**
+* **Trie, Suffix Tree, Suffix Automaton**
+* **Binary Indexed Tree (Fenwick Tree)**
+* **Segment Tree with Lazy Propagation**
+* **Heavy-Light Decomposition**
+* **Range Trees, K-D Trees, Segment Tree Beats**
+
+---
+
+## ⚔️ 7. **Master Competitive Programming Techniques**
+
+Great for pushing boundaries:
+
+* **Codeforces**, **AtCoder**, **LeetCode Hard**, **TopCoder**
+* **CSES Problem Set**, **ICPC-style problems**
+* **Techniques**:
+
+  * Coordinate Compression
+  * Implicit Treaps / Ordered Sets
+  * Offline Queries (Mo’s Algorithm)
+  * Bit Manipulation Tricks
+  * Sweep Line / Line Intersection
+  * Matrix Exponentiation
+  * Convex Hull Trick, Li Chao Tree
+  * Burnside’s Lemma, Inclusion-Exclusion
+
+---
+
+## 🧪 8. **Practice + Build**
+
+* Solve **hundreds of problems** (easy → medium → hard).
+* **Re-implement** core algorithms from scratch.
+* **Write blog posts or explain algorithms to others**.
+* Build **real systems** using algorithms:
+
+  * Search engine (Trie, ranking)
+  * Recommendation system (graph + ML)
+  * File diff tool (LCS)
+  * Cache system (LRU with LinkedHashMap)
+  * Spellchecker (BK-Tree, edit distance)
+
+---
+
+## 📜 9. **Know Theory & Limitations**
+
+* **P vs NP**
+* **Halting Problem**
+* **Reductions**
+* **Undecidability**
+* **Trade-offs in practice vs theory** (e.g. cache efficiency, branch prediction)
+
+---
+
+## 🧠 10. **Mindset of a Master**
+
+* Focus on **patterns**, not just memorization.
+* Ask: “Why does this work?” and “How else could I solve it?”
+* Analyze your mistakes.
+* Get comfortable with **failure and revision**.
+
+---
