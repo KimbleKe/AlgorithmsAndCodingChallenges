@@ -1,1 +1,3 @@
-Coding challenges and solutions reference; and algorithms reference
+__Content__
+- Coding challenges and solutions 
+- Algorithms 
