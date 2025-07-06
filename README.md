@@ -1,3 +1,3 @@
 __Content__
-- Coding challenges and solutions 
+- Coding challenges & solutions 
 - Algorithms 
