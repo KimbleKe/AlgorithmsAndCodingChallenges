@@ -1,4 +1,5 @@
 Other resources:
+- https://app.codility.com/programmers/challenges
 - https://github.com/topics/coding-challenge
 - https://www.hackerrank.com/domains/python
 - https://www.codechef.com/practice/python
