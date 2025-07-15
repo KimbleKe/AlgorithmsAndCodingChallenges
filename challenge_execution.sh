@@ -1,1 +1,1 @@
-python3 CodingChallengeSolutions/CountriesCount/CountriesCount_debug.py CodingChallengeSolutions/CountriesCount/input.txt
+python3 CodingChallengeSolutions/BinaryGap/solution_debug.py CodingChallengeSolutions/BinaryGap/input.txt
