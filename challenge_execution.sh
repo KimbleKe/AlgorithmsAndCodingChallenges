@@ -1,0 +1,1 @@
+python3 CodingChallengeSolutions/ArrListLen/ArrListLen_debug.py CodingChallengeSolutions/ArrListLen/input.txt
