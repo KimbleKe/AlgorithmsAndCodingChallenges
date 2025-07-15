@@ -1,1 +1,1 @@
-python3 CodingChallengeSolutions/MissingInteger/MissingInteger_debug.py CodingChallengeSolutions/MissingInteger/input.txt
+python3 CodingChallengeSolutions/MinAbsSumOfTwo/MinAbsSumOfTwo_debug.py CodingChallengeSolutions/MinAbsSumOfTwo/input.txt
