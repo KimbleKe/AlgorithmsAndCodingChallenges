@@ -1,1 +1,1 @@
-python3 CodingChallengeSolutions/MinAbsSumOfTwo/MinAbsSumOfTwo_debug.py CodingChallengeSolutions/MinAbsSumOfTwo/input.txt
+python3 CodingChallengeSolutions/CountriesCount/CountriesCount_debug.py CodingChallengeSolutions/CountriesCount/input.txt
