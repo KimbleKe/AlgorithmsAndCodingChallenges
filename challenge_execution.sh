@@ -1,1 +1,1 @@
-python3 CodingChallengeSolutions/ArrListLen/ArrListLen_debug.py CodingChallengeSolutions/ArrListLen/input.txt
+python3 CodingChallengeSolutions/MissingInteger/MissingInteger_debug.py CodingChallengeSolutions/MissingInteger/input.txt
