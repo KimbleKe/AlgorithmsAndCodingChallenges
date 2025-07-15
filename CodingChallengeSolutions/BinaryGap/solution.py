@@ -1,5 +1,5 @@
 # author: Kimble Ke
-# date: 2025.7.2
+# date: 2025.7.15
  
 # O(N) solution
 def binary_gap(N):
