@@ -103,7 +103,6 @@ heapq.heappop(heap)
 
 ---
 
-```markdown
 # Python Cheat Sheet for Codility Tests (Optimal Solutions)
 
 ## Essential Python Built-in Functions & Libraries
@@ -222,7 +221,5 @@ bin(x), int('1010', 2)  # Binary conversions
 2. **Use `bisect` for sorted arrays**  
 3. **For DP, use `lru_cache`**  
 4. **Practice slicing and list comprehensions**  
-
-```
 
 ---
