@@ -15,6 +15,7 @@ def solution(A):
  
   return count
 
+###############################################################################
 # print input and output
 if __name__ == "__main__":
   import sys

@@ -34,6 +34,8 @@ def solution(A: List[List[int]]) -> int:
                             
   return countries
 
+###############################################################################
+# print input and output
 if __name__ == "__main__":
   import sys
 

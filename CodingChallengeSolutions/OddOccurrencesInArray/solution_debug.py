@@ -8,6 +8,7 @@ def solution(A):
     result ^= num  # XOR all elements
   return result
 
+###############################################################################
 # print input and output
 if __name__ == "__main__":
   import sys

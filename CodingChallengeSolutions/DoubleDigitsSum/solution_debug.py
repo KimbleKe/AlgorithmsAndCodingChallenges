@@ -8,6 +8,8 @@ def solution(n):
     total += 2 * int(digit)
   return total
 
+###############################################################################
+# print input and output
 if __name__ == "__main__":
     import sys
 

@@ -7,7 +7,9 @@ def missing_integer(A):
   for i in range(1, len(A)+2): 
     if i not in seen:
       return i
-    
+
+###############################################################################
+# print input and output    
 if __name__ == "__main__":
   import sys
 

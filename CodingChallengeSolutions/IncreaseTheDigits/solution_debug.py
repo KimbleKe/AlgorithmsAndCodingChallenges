@@ -9,6 +9,8 @@ def solution(n):
     result.append(str(new_digit))
   return int(''.join(result))  # Removes leading zero if needed
 
+###############################################################################
+# print input and output
 if __name__ == "__main__":
     import sys
 

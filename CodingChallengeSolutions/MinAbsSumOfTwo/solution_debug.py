@@ -21,6 +21,8 @@ def min_abs_sum_of_two(A):
   
   return min_abs
 
+###############################################################################
+# print input and output
 if __name__ == "__main__":
   import sys
 

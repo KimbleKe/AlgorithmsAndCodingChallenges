@@ -1,25 +1,22 @@
 # author: Kimble Ke
 # date: 2025.7.15
  
-# O(logN) solution
-def solution(N):
-  max_gap = 0
-  current_gap = 0
-  found_one = False
+# Time Complexity O(N)
+def solution(A):
+  total = sum(A)
+  left_sum = 0
+  min_diff = float('inf')
   
-  while N > 0:
-    if N & 1:  # Check if the last bit is 1
-      if found_one:
-        max_gap = max(max_gap, current_gap)
-      else:
-        found_one = True
-      current_gap = 0
-    else:  # Last bit is 0
-      if found_one:
-        current_gap += 1
-    N = N // 2  # Right shift, equivalent to N >>= 1
+  for i in range(len(A)-1):
+    left_sum += A[i]
+    right_sum = total - left_sum
+    current_diff = abs(left_sum - right_sum)
+    if current_diff < min_diff:
+      min_diff = current_diff
+      if min_diff == 0:  # Early exit if perfect balance found
+        break
   
-  return max_gap
+  return min_diff
 
 ###############################################################################
 # print input and output

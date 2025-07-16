@@ -10,6 +10,7 @@ def solution(X, D):
     jumps += 1
   return jumps
 
+###############################################################################
 # print input and output
 if __name__ == "__main__":
   import sys

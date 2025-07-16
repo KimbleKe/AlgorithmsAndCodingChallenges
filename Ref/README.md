@@ -1,3 +1,8 @@
+To execute a coding challenge solution, run below command
+<pre>
+./challenge_execution.sh problem-name
+</pre>
+
 Other resources:
 - https://app.codility.com/programmers/challenges
 - https://github.com/topics/coding-challenge

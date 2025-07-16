@@ -5,6 +5,8 @@
 def solution(n):
   return int(str(n)[::-1])
 
+###############################################################################
+# print input and output
 if __name__ == "__main__":
     import sys
 

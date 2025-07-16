@@ -19,6 +19,8 @@ def cyclic_rotation2(K, A):
     A[0] = last_element
   return A
 
+###############################################################################
+# print input and output
 if __name__ == "__main__":
     import sys
 
