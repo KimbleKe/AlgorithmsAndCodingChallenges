@@ -18,9 +18,9 @@ if [ ! -f "$PYTHON_SCRIPT" ]; then
 fi
 
 if [ ! -f "$INPUT_FILE" ]; then
-  echo "Error: Input file not found at $INPUT_FILE"
-  exit 1
+  # Execute the Python script without a input file
+  python3 "$PYTHON_SCRIPT"
+else
+  # Execute the Python script with the input file
+  python3 "$PYTHON_SCRIPT" "$INPUT_FILE"
 fi
-
-# Execute the Python script with the input file
-python3 "$PYTHON_SCRIPT" "$INPUT_FILE"

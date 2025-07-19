@@ -1,7 +1,7 @@
 # author: Kimble Ke
 # date: 2025.7.8
  
-# O(NlogN) Time, O(N) Space solution
+# O(N) Time, O(N) Space solution
 from dataclasses import dataclass
 from typing import List, Set
 
@@ -36,7 +36,7 @@ def convex_hull(points: List[Point2D]) -> List[Point2D]:
   full_hull = lower[:-1] + upper[:-1]
   return full_hull
 
-def solution(A: List[Point2D]) -> int:
+def solution1(A) -> int:
   n = len(A)
   if n < 3:
     return -1

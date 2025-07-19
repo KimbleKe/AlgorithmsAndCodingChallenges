@@ -2,7 +2,7 @@
 # date: 2025.7.15
  
 # O(N) solution
-def binary_gap(N):
+def solution1(N):
   max_gap = 0
   current_gap = 0
   found_one = False

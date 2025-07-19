@@ -2,7 +2,7 @@
 # date: 2025.7.6
 
 # O(N) solution
-def solution(A):
+def solution1(A):
   from collections import defaultdict
 
   # Step 1: Count occurrences

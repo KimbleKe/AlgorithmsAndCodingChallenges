@@ -2,7 +2,7 @@
 # date: 2025.7.8
  
 # O(N) Time, O(N) Space solution
-def solution(S):
+def solution1(S):
   stack = []
   for ch in S:
     if stack and stack[-1] == ch:

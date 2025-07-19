@@ -5,7 +5,7 @@
 from collections import deque
 from typing import List
 
-def solution(A: List[List[int]]) -> int:
+def solution1(A: List[List[int]]) -> int:
   if not A or not A[0]:
     return 0
 

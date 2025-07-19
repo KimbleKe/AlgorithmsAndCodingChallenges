@@ -2,7 +2,7 @@
 # date: 2025.7.16
  
 # Time Complexity O(N+M)
-def solution(N, A):
+def solution1(N, A):
   counters = [0] * N
   current_max = 0
   last_update = 0

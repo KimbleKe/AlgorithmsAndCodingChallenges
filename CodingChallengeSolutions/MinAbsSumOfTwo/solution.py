@@ -2,7 +2,7 @@
 # date: 2025.7.15
 
 # Time Complexity: O(NlogN)
-def min_abs_sum_of_two(A):
+def solution1(A):
   A.sort()  # Sort the array in ascending order
   n = len(A)
   left, right = 0, n - 1

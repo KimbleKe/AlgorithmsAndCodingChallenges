@@ -2,7 +2,7 @@
 # date: 2025.7.2
  
 # O(N) solution
-def solution(A):
+def solution1(A):
   i=0
   count=0
  

@@ -2,7 +2,7 @@
 # date: 2025.7.6
  
 # O(NlogN) solution
-def solution(A):
+def solution1(A):
   def merge_sort(arr):
     if len(arr) <= 1:
       return arr, 0

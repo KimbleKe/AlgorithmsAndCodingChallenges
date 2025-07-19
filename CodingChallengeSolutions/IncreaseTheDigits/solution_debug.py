@@ -1,15 +1,5 @@
-# author: Kimble Ke
-# date: 2025.7.15
+from solution import solution1
 
-# O(N) solution
-def solution(n):
-  result = []
-  for digit in str(n):
-    new_digit = (int(digit) + 1) % 10
-    result.append(str(new_digit))
-  return int(''.join(result))  # Removes leading zero if needed
-
-###############################################################################
 # print input and output
 if __name__ == "__main__":
     import sys
@@ -23,9 +13,10 @@ if __name__ == "__main__":
         line = f.read().strip()
         n = eval(line) 
 
-    result = solution(n)
-
     print("######## input ########")
     print("input  is " + str(n))
+
+    result = solution1(n)
+
     print("######## result ########")
     print("result is " + str(result))

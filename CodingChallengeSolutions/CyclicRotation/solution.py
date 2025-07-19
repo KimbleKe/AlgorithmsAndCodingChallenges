@@ -2,14 +2,14 @@
 # date: 2025.7.15
 
 # O(N) solution
-def cyclic_rotation1(A, K):
+def solution1(A, K):
   if not A:
     return A
   K = K % len(A)
   return A[-K:] + A[:-K]
 
 # O(N x K) solution
-def cyclic_rotation2(A, K):
+def solution2(A, K):
   if not A:
     return A
   for _ in range(K):
