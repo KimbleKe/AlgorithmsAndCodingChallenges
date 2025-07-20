@@ -1,5 +1,5 @@
 # author: Kimble Ke
-# date: 2025.7.19
+# date: 2025.7.20
  
 # O(N) Time, O(N) Space
 def solution1(A):
