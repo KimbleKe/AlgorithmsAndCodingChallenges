@@ -1,5 +1,5 @@
 # author: Kimble Ke
-# date: 2025.7.19
+# date: 2025.7.20
  
 # O(1) Time, O(1) Space
 def solution1(A, B, K):
@@ -12,5 +12,3 @@ def solution1(A, B, K):
     result+=1
 
   return result
-
-
