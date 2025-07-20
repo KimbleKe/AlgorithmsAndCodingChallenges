@@ -5,28 +5,41 @@
 def solution1(S, P, Q):
   n = len(S)
   m = len(P)
-  # Initialize prefix sums for A, C, G (T is implied)
-  prefix_A = [0] * (n + 1)
-  prefix_C = [0] * (n + 1)
-  prefix_G = [0] * (n + 1)
-  
-  for i in range(1, n + 1):
-    prefix_A[i] = prefix_A[i - 1] + (1 if S[i - 1] == 'A' else 0)
-    prefix_C[i] = prefix_C[i - 1] + (1 if S[i - 1] == 'C' else 0)
-    prefix_G[i] = prefix_G[i - 1] + (1 if S[i - 1] == 'G' else 0)
-  
+  a=c=g=t=0
   result = []
+
+  A = [0] * n
+  C = [0] * n
+  G = [0] * n
+  T = [0] * n
+  
+  # break S string into 4 nucleotide arrays - A,C,G,T arrays
+  for i in range(0, n):
+    a+=1 if S[i] == 'A' else 0
+    A[i] = a
+
+    c+=1 if S[i] == 'C' else 0
+    C[i] = c
+
+    g+=1 if S[i] == 'G' else 0
+    G[i] = g
+
+    t+=1 if S[i] == 'T' else 0
+    T[i] = t
+
+  # if nucleotide appear between Q[k] and P[k], then append min nucleotide into result array
   for k in range(m):
     start = P[k]
-    end = Q[k] + 1  # Convert to 1-based index
+    end = Q[k]  
     
-    # Check for A, C, G in order (T is default)
-    if prefix_A[end] - prefix_A[start] > 0:
+    # order is important as nucleotide impact is ranked with A < C < G < T 
+    if A[end] > A[start] or S[start] == 'A':
       result.append(1)
-    elif prefix_C[end] - prefix_C[start] > 0:
+    elif C[end] > C[start] or S[start] == 'C':
       result.append(2)
-    elif prefix_G[end] - prefix_G[start] > 0:
+    elif G[end] > G[start] or S[start] == 'G':
       result.append(3)
-    else:
+    elif T[end] > T[start] or S[start] == 'T':
       result.append(4)
+
   return result
