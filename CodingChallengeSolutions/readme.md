@@ -45,6 +45,7 @@
 | 11 | MissingPositiveIntegerInArray | In-place hashing | O(N) | O(1) |
 | 12 | StoneWall | Stack tracking | O(N) | O(N) |
 | 13 | TreeLongestZigZag | DFS traversal | O(N) | O(N) |
+| 14 | MaxDoubleSlice | Prefix Sums + DynamicProgramming | O(N) | O(N) |
 
 ## Hard Problems
 
