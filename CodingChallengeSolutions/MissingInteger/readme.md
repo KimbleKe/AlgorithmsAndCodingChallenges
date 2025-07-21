@@ -10,3 +10,10 @@ Output: 4 (All 1,2,3 are present, so the next is 4.)
 
 Input: [-1, -3]
 Output: 1 (No positive integers in the array, so the smallest positive integer is 1.)
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

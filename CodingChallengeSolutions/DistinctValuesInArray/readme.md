@@ -15,3 +15,9 @@ Each element in A is within [−1,000,000..1,000,000].
 Time: O(N)
 
 Space: O(N)
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

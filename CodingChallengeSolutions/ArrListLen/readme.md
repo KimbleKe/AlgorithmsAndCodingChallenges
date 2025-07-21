@@ -47,3 +47,9 @@ Assume that:
 - it will always be possible to construct the list and its length will be finite.
 
 In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

@@ -12,3 +12,10 @@ Output: [1, 2, 3, 4]
 
 Edge Case: A = [], K = 5
 Output: [] (Empty array remains unchanged.)
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy
+

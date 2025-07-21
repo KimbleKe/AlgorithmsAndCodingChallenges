@@ -5,3 +5,10 @@ Example:
 Input: 1234 → Output: 2345
 Input: 999 → Output: 000
 Input: 1098 → Output: 2109
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

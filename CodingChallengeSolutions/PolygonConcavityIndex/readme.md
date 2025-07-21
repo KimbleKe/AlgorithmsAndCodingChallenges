@@ -69,3 +69,10 @@ N is an integer within the range [3..10,000];
 the coordinates of each point in array A are integers within the range [−1,000,000,000..1,000,000,000];
 no two edges of the polygon A intersect, other than meeting at their endpoints;
 array A does not contain duplicate points.
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> hard

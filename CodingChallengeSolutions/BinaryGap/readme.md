@@ -10,3 +10,9 @@ Output: 4 (Two gaps exist: "0000" and "000", longest is "0000")
 
 Input: 32 (Binary: 100000)
 Output: 0 (No closing 1 after the zeros)
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

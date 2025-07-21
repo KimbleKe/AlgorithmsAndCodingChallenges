@@ -10,3 +10,10 @@ Output: 3 (Because |-8 + 5| = 3 is the smallest possible absolute sum)
 
 Input: A = [0]
 Output: 0 (Because 0 + 0 = 0)
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> medium

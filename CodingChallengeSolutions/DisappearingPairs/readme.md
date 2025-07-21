@@ -22,3 +22,10 @@ Write an efficient algorithm for the following assumptions:
 
 the length of string S is within the range [0..50,000];
 string S is made only of the following characters: 'A', 'B' and/or 'C'.
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> medium to hard

@@ -44,3 +44,11 @@ __Assumptions__ <br>
 Write an efficient algorithm for the following assumptions:
 - N is an integer within the range [1..1,000];
 - the height of tree T (number of edges on the longest path from root to leaf) is within the range [0..500].
+
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

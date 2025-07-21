@@ -17,3 +17,10 @@ N (length of S) and M (length of queries) up to 100,000.
 Time: O(N + M)
 
 Space: O(N)
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> medium

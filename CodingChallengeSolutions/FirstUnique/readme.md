@@ -45,3 +45,10 @@ the function should return −1. There is no unique number in A (4 and 6 occur m
 Write an efficient algorithm for the following assumptions:
 - N is an integer within the range [1..100,000];
 - each element of array A is an integer within the range [0..1,000,000,000].
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> medium

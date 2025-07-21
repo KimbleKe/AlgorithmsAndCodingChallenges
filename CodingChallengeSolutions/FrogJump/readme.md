@@ -15,3 +15,9 @@ X = 10, D = 3 → Output 4 (Jumps: 0→3→6→9→12)
 X = 5, D = 1 → Output 5 (Jumps: 0→1→2→3→4->5)
 
 X = 100, D = 5 → Output 20
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

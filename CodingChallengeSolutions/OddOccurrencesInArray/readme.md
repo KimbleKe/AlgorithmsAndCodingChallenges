@@ -10,3 +10,10 @@ Output: 3
 
 Input: [42]
 Output: 42 (Single-element array)
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

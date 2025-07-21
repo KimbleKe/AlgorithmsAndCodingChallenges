@@ -6,3 +6,9 @@ Input: 1234
 Output: 4321
 Input: 100
 Output: 1 (leading zeros should be removed)
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

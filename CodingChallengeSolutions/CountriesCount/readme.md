@@ -54,3 +54,11 @@ A = [
 </pre>
 
 print(solution(A))  # Output: 11
+
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> hard

@@ -7,3 +7,10 @@ X = 5, A = [1, 3, 1, 4, 2, 3, 5, 4] → Output 6 (At time 6, all positions 1-5 a
 X = 2, A = [2, 2, 2, 2] → Output -1 (Never reaches position 1)
 
 X = 3, A = [1, 2, 1] → Output -1 (Never reaches position 3)
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

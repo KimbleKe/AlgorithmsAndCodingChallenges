@@ -20,3 +20,10 @@ the function should return 0, because both substrings are empty.
 
 Write an efficient algorithm for the following assumptions:
 - the length of string S is within the range [0..2,000,000].
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

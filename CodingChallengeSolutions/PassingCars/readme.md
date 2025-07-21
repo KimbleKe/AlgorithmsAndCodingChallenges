@@ -17,3 +17,10 @@ Each element in A is either 0 or 1.
 Time: O(N)
 
 Space: O(1)
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

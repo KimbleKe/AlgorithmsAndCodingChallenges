@@ -11,3 +11,9 @@ Constraints:
 Time: O(1)
 
 Space: O(1)
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy

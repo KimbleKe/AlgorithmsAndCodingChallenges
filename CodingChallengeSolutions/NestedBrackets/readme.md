@@ -13,3 +13,10 @@ N (length of S) is within [0..1,000,000].
 Time: O(N)
 
 Space: O(N) (worst-case, but could be optimized to O(1) if only one bracket type exists).
+
+
+
+<br><br><br>
+
+> **Difficulty level**
+> easy
