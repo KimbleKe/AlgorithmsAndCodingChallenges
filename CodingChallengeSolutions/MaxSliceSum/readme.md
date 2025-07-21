@@ -1,5 +1,5 @@
 1. Problem Description
-MaxSliceSum
+MaxSliceSum, a.k.a. MaxSubArray
 Given an array of integers, find the maximum sum of any contiguous subarray (also known as a "slice"). The slice can be of any length, including the entire array. The sum of an empty slice is defined as 0, but since the array contains only integers, the maximum slice sum cannot be less than the maximum single element in the array (if all numbers are negative).
 
 2. Example Input/Output (Including Edge Cases)
@@ -22,6 +22,7 @@ Example 4 (All Positive Numbers):
 Input: [1, 2, 3, 4]
 Output: 10
 Explanation: The maximum sum is the entire array.
+
 
 <br><br><br>
 
