@@ -11,16 +11,18 @@ def solution1(A):
 	right_max = [0] * n
 	
 	# compute left maximum sums ending at each position in array {A[X+1]...A[Y-1]}
+	# using Kadane's algorithm
 	for i in range(1, n-1):
 		left_max[i] = max(0, left_max[i-1] + A[i])
 
 	# compute right maximum sums starting at each position in array {A[Y+1]...A[Z-1]}
+	# using Kadane's algorithm
 	for i in range(n-2, 0, -1):
 		right_max[i] = max(0, right_max[i+1] + A[i])
 	
 	# find the maximum combination of left and right sums
 	max_sum = 0
 	for i in range(1, n-1):
-		max_sum = max(max_sum, left_max[i-1] + right_max[i+1])
+		max_sum = max(max_sum, left_max[i-1] + right_max[i+1]) # skip y index element
 	
 	return max_sum
