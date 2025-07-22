@@ -28,6 +28,7 @@
 | 22 | TreeHeight | DFS/BFS traversal | O(N) | O(N) |
 | 23 | TriangleTriplet | Sorting + greedy | O(N log N) | O(1) |
 | 24 | CountFactors | Optimized Trial Division | O(√N) | O(1) |
+| 25 | MinimumPerimeterRectangle | Optimized Trial Division | O(√N) | O(1) |
 
 ## Medium Problems
 
