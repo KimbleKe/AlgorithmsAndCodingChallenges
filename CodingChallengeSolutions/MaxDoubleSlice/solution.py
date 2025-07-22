@@ -20,7 +20,8 @@ def solution1(A):
 	for i in range(n-2, 0, -1):
 		right_max[i] = max(0, right_max[i+1] + A[i])
 	
-	# find the maximum combination of left and right sums
+	# recall we want to find max sum of A[X+1] + A[X+2] + ... + A[Y-1] + A[Y+1] + ... + A[Z-1]
+	# we need to find the maximum combination of left and right sums
 	# skip y index element as it's the index to move from left to right
 	# left_max[i-1] is the max sum from left side of y
 	# right_max[i+1] is the max sum from right side of y
