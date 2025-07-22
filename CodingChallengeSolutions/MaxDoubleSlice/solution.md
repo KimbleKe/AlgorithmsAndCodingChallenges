@@ -43,6 +43,8 @@ For array A = [3, 2, 6, -1, 4, 5, -1, 2]
    - right_max[4] = 9 (4+5 - includes A[4],A[5])
    - Sum = 8 + 9 = 17 (the correct answer)
 
+![maxdoubleslice_img](./maxdoubleslice.png)
+
 ### Key Advantages:
 1. **Optimal Substructure:** The best double slice must consist of the best left and right slices around some Y
 2. **Overlapping Subproblems:** The left/right sums can be reused for different Y positions
