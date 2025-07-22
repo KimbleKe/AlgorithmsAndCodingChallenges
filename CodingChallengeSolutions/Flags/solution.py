@@ -26,9 +26,10 @@ def solution1(A):
 	import math
 	max_flags = 0
 	max_possible = int(math.sqrt(N)) + 1
-	for k in range(1, max_possible + 1):  # assume k is the number of flags 
+	for k in range(1, max_possible + 1):  # assume k is the number of max possible flags 
 		flags_used = 0
 		pos = 0
+		# position cannot exceed length of array, flags_used cannot exceed max possible flags k
 		while pos < N and flags_used < k:
 			pos = next_peak[pos]
 			if pos == -1:
