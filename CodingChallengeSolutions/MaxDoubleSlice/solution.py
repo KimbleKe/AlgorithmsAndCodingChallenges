@@ -21,8 +21,11 @@ def solution1(A):
 		right_max[i] = max(0, right_max[i+1] + A[i])
 	
 	# find the maximum combination of left and right sums
+	# skip y index element as it's the index to move from left to right
+	# left_max[i-1] is the max sum from left side of y
+	# right_max[i+1] is the max sum from right side of y
 	max_sum = 0
-	for i in range(1, n-1):
-		max_sum = max(max_sum, left_max[i-1] + right_max[i+1]) # skip y index element
+	for y in range(1, n-1):
+		max_sum = max(max_sum, left_max[y-1] + right_max[y+1]) 
 	
 	return max_sum
