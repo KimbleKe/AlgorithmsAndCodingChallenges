@@ -1,7 +1,7 @@
 Coding challenges and solutions
 =====================================
 
-__Content__
+__Table of Content__
 - Coding challenges & solutions 
 - Algorithms 
 - Data structure
