@@ -50,8 +50,7 @@
 | 13 | TreeLongestZigZag | DFS traversal | O(N) | O(N) |
 | 14 | MaxDoubleSlice | Prefix Sums, Kadane's algorithm, DynamicProgramming | O(N) | O(N) |
 | 15 | CountNonDivisible | Divisor Counting + Frequency Map | O(N log N) | O(N + max(A)) |
-| 16 | CountSemiPrimesSieveOfEratosthenes | Sieve of Eratosthenes + Prefix Sum | O(N log log N + M) | O(N) |
-
+| 16 | ChocolatesByNumber | Math (Least Common Multiple LCM and Greatest Common Divisor GCD with Euclidean Algorithm) | O(log N) | O(1) |
 
 
 ## Hard Problems
@@ -65,3 +64,4 @@
 | 5 | PolygonConcavityIndex | Computational geometry | O(N) | O(1) |
 | 6 | Flags | Peak Detection, Binary Search, Greedy Placement | O(N) | O(N) |
 | 7 | Peaks | Prefix Sum + Divisors Check | O(N * √N) | O(N) |
+| 8 | CountSemiPrimesSieveOfEratosthenes | Sieve of Eratosthenes + Prefix Sum | O(N log log N + M) | O(N) |
