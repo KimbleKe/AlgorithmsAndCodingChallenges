@@ -59,3 +59,4 @@
 | 4 | DisappearingPairs | Stack/DFS simulation | O(N) | O(N) |
 | 5 | PolygonConcavityIndex | Computational geometry | O(N) | O(1) |
 | 6 | Flags | Peak Detection, Binary Search, Greedy Placement | O(N) | O(N) |
+| 7 | Peaks | Prefix Sum + Divisors Check | O(N * √N) | O(N) |
