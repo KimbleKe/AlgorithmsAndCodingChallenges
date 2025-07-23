@@ -30,6 +30,7 @@
 | 24 | CountFactors | Optimized Trial Division | O(√N) | O(1) |
 | 25 | MinimumPerimeterRectangle | Optimized Trial Division | O(√N) | O(1) |
 
+
 ## Medium Problems
 
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
@@ -48,6 +49,8 @@
 | 12 | StoneWall | Stack tracking | O(N) | O(N) |
 | 13 | TreeLongestZigZag | DFS traversal | O(N) | O(N) |
 | 14 | MaxDoubleSlice | Prefix Sums, Kadane's algorithm, DynamicProgramming | O(N) | O(N) |
+| 15 | CountNonDivisible | Divisor Counting + Frequency Map | O(N log N) | O(N + max(A)) |
+
 
 ## Hard Problems
 
