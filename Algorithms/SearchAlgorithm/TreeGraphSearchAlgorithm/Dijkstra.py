@@ -1,3 +1,28 @@
+# graph = {
+#   'A': [('B', 1), ('C', 4)],
+#   'B': [('C', 2), ('D', 5)],
+#   'C': [('D', 1)],
+#   'D': []
+# }
+
+# A --1--> B --2--> C --1--> D
+#  \       \
+#   \       \--5--> D
+#    \
+#     \--4--> C
+
+# input
+# dijkstra(graph, 'A')
+
+# output
+# {
+#   'A': 0,     # Distance to self
+#   'B': 1,     # A -> B
+#   'C': 3,     # A -> B -> C (1 + 2)
+#   'D': 4      # A -> B -> C -> D (1 + 2 + 1)
+# }
+
+
 import heapq
 
 def dijkstra(graph, start):

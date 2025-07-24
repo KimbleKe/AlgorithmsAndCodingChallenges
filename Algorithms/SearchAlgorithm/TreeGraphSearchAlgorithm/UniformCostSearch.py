@@ -1,3 +1,27 @@
+# graph = {
+# 	'A': [('B', 2), ('C', 5)],
+# 	'B': [('D', 4), ('E', 1)],
+# 	'C': [('F', 2)],
+# 	'D': [],
+# 	'E': [('F', 3)],
+# 	'F': []
+# }
+
+# start = 'A'
+# goal = 'F'
+
+# print(uniform_cost_search(graph, start, goal))
+# ['A', 'B', 'E', 'F']
+
+# Edge case
+# start = 'A'
+# goal = 'Z'  # 'Z' not in graph
+
+# print(uniform_cost_search(graph, start, goal))
+# None
+
+
+
 import heapq
 
 def uniform_cost_search(graph, start, goal):

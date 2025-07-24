@@ -12,11 +12,11 @@
 #    B   C
 #   / \   \
 #  D   E - F
-
+#
 # input
 # bfs(graph, 'A', 'F')
 # bfs(graph, 'D', 'Z')
-
+#
 # output
 # ['A', 'C', 'F']
 # None
