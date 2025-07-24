@@ -51,6 +51,7 @@
 | 14 | MaxDoubleSlice | Prefix Sums, Kadane's algorithm, DynamicProgramming | O(N) | O(N) |
 | 15 | CountNonDivisible | Divisor Counting + Frequency Map | O(N log N) | O(N + max(A)) |
 | 16 | ChocolatesByNumber | Math (Least Common Multiple LCM and Greatest Common Divisor GCD with Euclidean Algorithm) | O(log N) | O(1) |
+| 17 | CommonPrimeDivisors | GCD with Prime Divisors Elimination | O(N * log^2(M)) | O(1) |
 
 
 ## Hard Problems
