@@ -67,4 +67,5 @@
 | 7 | Peaks | Prefix Sum + Divisors Check | O(N * √N) | O(N) |
 | 8 | CountSemiPrimesSieveOfEratosthenes | Sieve of Eratosthenes + Prefix Sum | O(N log log N + M) | O(N) |
 | 9 | FibonacciFrogJump | BFS with Fibonacci bounds | O(N * sqrt(N)) | O(N) |
+| 10 | FibonacciLadder | DP (Dynamic Programming) + Fibonacci with Bitwise Modulo | O(L + N) | O(N) |
 
