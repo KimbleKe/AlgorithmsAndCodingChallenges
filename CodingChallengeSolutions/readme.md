@@ -66,3 +66,5 @@
 | 6 | Flags | Peak Detection, Binary Search, Greedy Placement | O(N) | O(N) |
 | 7 | Peaks | Prefix Sum + Divisors Check | O(N * √N) | O(N) |
 | 8 | CountSemiPrimesSieveOfEratosthenes | Sieve of Eratosthenes + Prefix Sum | O(N log log N + M) | O(N) |
+| 9 | FibonacciFrogJump | BFS with Fibonacci bounds | O(N * sqrt(N)) | O(N) |
+
