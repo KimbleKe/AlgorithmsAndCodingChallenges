@@ -1,3 +1,26 @@
+# graph = {
+#   'A': ['B', 'C'],
+#   'B': ['A', 'D', 'E'],
+#   'C': ['A', 'F'],
+#   'D': ['B'],
+#   'E': ['B', 'F'],
+#   'F': ['C', 'E']
+# }
+#
+#      A
+#     / \
+#    B   C
+#   / \   \
+#  D   E - F
+
+# input
+# bfs(graph, 'A', 'F')
+# bfs(graph, 'D', 'Z')
+
+# output
+# ['A', 'C', 'F']
+# None
+
 from collections import deque
 
 def bfs(graph, start, goal):
