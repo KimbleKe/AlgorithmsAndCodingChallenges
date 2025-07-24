@@ -11,7 +11,7 @@ def solution1(A, B):
 		return a
 	
 	# helper function checks whether any extra prime factors exist in a or b that are not in common_gcd
-	def remove_common_prime_divisors(x, common_gcd):
+	def has_only_common_prime_divisors(x, common_gcd):
 		while True:
 			gcd_val = gcd(x, common_gcd)
 			if gcd_val == 1:
@@ -26,12 +26,12 @@ def solution1(A, B):
 
 		# remove all prime divisors from a that are in common_gcd
 		# if function returns number other than 1, it means there are other prime divisor that a contains and b does not contain
-		if remove_common_prime_divisors(a, common_gcd) != 1:
+		if has_only_common_prime_divisors(a, common_gcd) != 1:
 			continue
 
 		# remove all prime divisors from b that are in common_gcd
 		# if function returns number other than 1, it means there are other prime divisor that b contains and a does not contain
-		if remove_common_prime_divisors(b, common_gcd) != 1:
+		if has_only_common_prime_divisors(b, common_gcd) != 1:
 			continue
 
 		# both a and b share the same common prime divisors, count++; if not, continue command will skip count increment
