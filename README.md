@@ -3,21 +3,48 @@ Coding challenges and solutions
 
 __Table of Content__
 - Algorithms 
-  - Basics
+  - Data structure
+    - Sequence: list, tuple, range, str, array
+    - Set: set, frozenset
+    - Mapping: dict, defaultdict, OrderedDict
+    - Queue/Stack: deque, queue.Queue, list
+    - FrequencyMap: Counter
+    - PriorityQueue: heapq
+    - Other: namedtuple, bisect, custom classes
+  - Algorithm basics
     - iteration, array, timeComplexity, countingElem, prefixSum, sorting, stack, leader, maxSlice, primeNumber, sieve, euclideanAlgorithm, fibonacci, binarySearch, caterpillarMethod, greedyAlgorithm, dynamicProgramming
   - Search
     - Array search: linearSearch, binarySearch, jumpSearch, exponentialSearch, fibonacciSearch, interpolationSearch, blockSearch
-    - Tree graph search: bestFirstSearch, bidirectionalSearch, breadthFirstSearch, depthFirstSearch, dijkstra, iterativeDeepeningDFS, uniformCostSearch 
+    - Tree graph search: bestFirstSearch, bidirectionalSearch, breadthFirstSearch, depthFirstSearch, dijkstra, iterativeDeepeningDFS, uniformCostSearch
+    - Graph algorithm: DFS/BFS, dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal / Prim - Minimum Spanning Tree (MST), topologicalSort, Tarjan’s / Kosaraju’s, Union-Find / Disjoint Sets, A* Search 
   - Sorting
     - bubbleSort, countingSort, heapSort, insertionSort, mergeSort, quickSort, radixSort, selectionSort, shellSort, timSort
-- Data structure
-  - Sequence: list, tuple, range, str, array
-  - Set: set, frozenset
-  - Mapping: dict, defaultdict, OrderedDict
-  - Queue/Stack: deque, queue.Queue, list
-  - FrequencyMap: Counter
-  - PriorityQueue: heapq
-  - Other: namedtuple, bisect, custom classes
+  - Dynamic Programming(DP)
+    - fibonacci / staircase, knapsack, longestCommonSubsequence, matrixChainMultiplication, editDistance, coinChange, DP on Trees / Bitmasks / States
+  - Greedy algorithm
+    - activitySelection, huffmanCoding, Kruskal’s Algorithm, dijkstra (with heap), EgyptianFraction
+  - Backtracking
+    - N-Queens, sudokuSolver, subset / Combination Generator, permutations
+  - Recursion
+    - factorial / fibonacci, treeTraversals, Tower of Hanoi
+  - Maths algorithm
+    - Euclidean Algorithm (GCD / LCM), Sieve of Eratosthenes, Modular Exponentiation, Miller-Rabin, Chinese Remainder Theorem, binaryExponentiation
+  - Bit manipulation
+    - countSetBits, XOR Tricks, Bitmask DP, Bitwise Operators (AND, OR, XOR, NOT, SHIFT)
+  - String algorithm
+    - Rabin-Karp, KMP (Knuth-Morris-Pratt), Z-Algorithm, Trie, suffixArray / Tree
+  - Geometric algorithm
+    - Convex Hull (Graham Scan, Jarvis March), lineIntersection, closest Pair of Points, rotatingCalipers
+  - Randomized & Probabilistic algorithm
+    - randomized QuickSort, Monte Carlo / Las Vegas, reservoirSampling, hashing
+  - Sliding Window / Two Pointers
+    - MaxSubArray, longestSubstringWithoutRepeatingChars, Two-sum / Three-sum
+  - Heap and Priority Queue Based
+    - Kth largest element, merge k sorted arrays, dijkstra’s
+  - Union-Find / Disjoint Set
+    - Find + Union, pathCompression
+  - Topological algorithm
+    - topologicalSort, Kahn’s Algorithm
 - Coding challenges & solutions 
   - (refer to below "Coding challenges" section)
 
