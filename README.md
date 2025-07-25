@@ -8,6 +8,10 @@ __Table of Content__
 
 ## Problems Evaluation
 
+#### Total number of challenges
+- Easy=26, Medium=18, Hard=10
+- Total=54
+
 #### Easy Problems
 
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
