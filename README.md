@@ -5,12 +5,12 @@ __Table of Content__
 - Algorithms 
 - Data structure
 - Coding challenges & solutions 
-
+jack
 ## Problems Evaluation
 
 #### Total number of challenges
-- Easy=26, Medium=18, Hard=10
-- Total=54
+- Easy=26, Medium=19, Hard=10
+- Total=55
 
 #### Easy Problems
 
@@ -66,6 +66,7 @@ __Table of Content__
 | 16 | ChocolatesByNumber | Math (Least Common Multiple LCM and Greatest Common Divisor GCD with Euclidean Algorithm) | O(log N) | O(1) |
 | 17 | CommonPrimeDivisors | GCD with Prime Divisors Elimination | O(N * log^2(M)) | O(1) |
 | 18 | MushroomPicker | Prefix Sum + Sliding Window | O(N) | O(N) |
+| 19 | ArraySwapToEqualSum | Hashing + Math Equation | O(N + M) | O(M) |
 
 
 #### Hard Problems
