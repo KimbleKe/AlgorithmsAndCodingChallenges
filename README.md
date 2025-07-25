@@ -1,7 +1,9 @@
 Coding challenges and solutions
 =====================================
 
-__Table of Content__
+__Table of Content__ 
+<br>
+
 **1. Algorithms** 
   - Data structure
     - Sequence: list, tuple, range, str, array
@@ -45,6 +47,8 @@ __Table of Content__
     - Find + Union, pathCompression
   - Topological algorithm
     - topologicalSort, Kahn’s Algorithm
+<br>
+
 **2. Coding challenges & solutions**
   - (refer to below "Coding challenges" section)
 
