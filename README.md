@@ -2,7 +2,7 @@ Coding challenges and solutions
 =====================================
 
 __Table of Content__
-- Algorithms 
+**1. Algorithms** 
   - Data structure
     - Sequence: list, tuple, range, str, array
     - Set: set, frozenset
@@ -45,7 +45,7 @@ __Table of Content__
     - Find + Union, pathCompression
   - Topological algorithm
     - topologicalSort, Kahn’s Algorithm
-- Coding challenges & solutions 
+**2. Coding challenges & solutions**
   - (refer to below "Coding challenges" section)
 
 ## Coding challenges
