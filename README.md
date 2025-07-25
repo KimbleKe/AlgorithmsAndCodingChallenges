@@ -6,9 +6,11 @@ __Table of Content__
 - Data structure
 - Coding challenges & solutions 
 
-__Problems Evaluation__
+=====================================
 
-### Easy Problems
+## Problems Evaluation
+
+#### Easy Problems
 
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
 |---|-------------|--------------------|-----------------|------------------|
@@ -40,7 +42,7 @@ __Problems Evaluation__
 | 26 | AbsoluteDistinctValue | Hash Set + Absolute Value | O(N) | O(N) |
 
 
-### Medium Problems
+#### Medium Problems
 
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
 |---|-------------|--------------------|-----------------|------------------|
@@ -63,7 +65,7 @@ __Problems Evaluation__
 | 17 | CommonPrimeDivisors | GCD with Prime Divisors Elimination | O(N * log^2(M)) | O(1) |
 
 
-### Hard Problems
+#### Hard Problems
 
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
 |---|-------------|--------------------|-----------------|------------------|
