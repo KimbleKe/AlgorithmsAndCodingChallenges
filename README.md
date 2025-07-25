@@ -4,7 +4,7 @@ Coding challenges and solutions
 __Table of Content__
 - Algorithms 
   - Basics
-    - iteration, array, timeComplexity, countingElem, prefixSum, sorting, stack, leader, maxSlice, primeNumber, sieve, euclideanAlgo, fibonacci, binarySearch, caterpillarMethod, greedyAIAlgo, dynamicProgramming
+    - iteration, array, timeComplexity, countingElem, prefixSum, sorting, stack, leader, maxSlice, primeNumber, sieve, euclideanAlgorithm, fibonacci, binarySearch, caterpillarMethod, greedyAlgorithm, dynamicProgramming
   - Search
     - Array search: linearSearch, binarySearch, jumpSearch, exponentialSearch, fibonacciSearch, interpolationSearch, blockSearch
     - Tree graph search: bestFirstSearch, bidirectionalSearch, breadthFirstSearch, depthFirstSearch, dijkstra, iterativeDeepeningDFS, uniformCostSearch 
