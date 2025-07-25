@@ -1,5 +1,5 @@
 1. Problem Description
-Given two arrays A and B of integers, determine if a single swap between any element of A and any element of B can make the sum of both arrays equal. Return True if possible, otherwise False.
+Also named as "SwapSum" problem. Given two arrays A and B of integers, determine if a single swap between any element of A and any element of B can make the sum of both arrays equal. Return True if possible, otherwise False.
 
 2. Example Input/Output
 Input:
