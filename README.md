@@ -3,10 +3,25 @@ Coding challenges and solutions
 
 __Table of Content__
 - Algorithms 
+  - Basics
+    - iteration, array, timeComplexity, countingElem, prefixSum, sorting, stack, leader, maxSlice, primeNumber, sieve, euclideanAlgo, fibonacci, binarySearch, caterpillarMethod, greedyAIAlgo, dynamicProgramming
+  - Search
+    - Array search: linearSearch, binarySearch, jumpSearch, exponentialSearch, fibonacciSearch, interpolationSearch, blockSearch
+    - Tree graph search: bestFirstSearch, bidirectionalSearch, breadthFirstSearch, depthFirstSearch, dijkstra, iterativeDeepeningDFS, uniformCostSearch 
+  - Sorting
+    - bubbleSort, countingSort, heapSort, insertionSort, mergeSort, quickSort, radixSort, selectionSort, shellSort, timSort
 - Data structure
+  - Sequence: list, tuple, range, str, array
+  - Set: set, frozenset
+  - Mapping: dict, defaultdict, OrderedDict
+  - Queue/Stack: deque, queue.Queue, list
+  - FrequencyMap: Counter
+  - PriorityQueue: heapq
+  - Other: namedtuple, bisect, custom classes
 - Coding challenges & solutions 
-jack
-## Problems Evaluation
+  - (refer to below "Coding challenges" section)
+
+## Coding challenges
 
 #### Total number of challenges
 - Easy=26, Medium=19, Hard=10
