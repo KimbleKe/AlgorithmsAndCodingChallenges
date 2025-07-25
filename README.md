@@ -6,8 +6,6 @@ __Table of Content__
 - Data structure
 - Coding challenges & solutions 
 
-=====================================
-
 ## Problems Evaluation
 
 #### Easy Problems
