@@ -1,3 +1,5 @@
+Problem: Minimize the value |(A[0] + ... + A[P-1]) - (A[P] + ... + A[N-1])
+
 Problem Statement
 Given a non-empty array A of N integers, find the minimal absolute difference between the sum of the first part and the sum of the second part when the array is split at any position P (where 1 ≤ P < N).
 

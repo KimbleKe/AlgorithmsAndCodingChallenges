@@ -1,3 +1,5 @@
+Problem: find value that occurs in odd number of elements.
+
 Problem Statement
 Given a non-empty array of integers where every element appears an even number of times except for one, find that unique element.
 

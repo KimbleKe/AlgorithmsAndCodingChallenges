@@ -1,3 +1,6 @@
+Problem:
+Rotate an array to the right by a given number of steps
+
 Problem Statement:
 Given an array A of integers and an integer K, perform a cyclic rotation of the array. Each rotation shifts every element to the right by one position, with the last element moving to the front.
 

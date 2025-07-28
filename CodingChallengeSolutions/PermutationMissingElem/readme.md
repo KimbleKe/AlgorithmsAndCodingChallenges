@@ -1,3 +1,5 @@
+Problem: find the missing element in a given permutation.
+
 Problem Statement (Permanent missing element)
 Given an array A consisting of N distinct integers in the range [1..(N + 1)], find the missing element.
 

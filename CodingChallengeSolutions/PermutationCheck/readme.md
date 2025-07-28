@@ -1,3 +1,5 @@
+Problem: check whether array A is a permutation.
+
 Problem: PermutationArrayCheck
 Task Description:
 Given an array A of N integers, check if it's a permutation (i.e., contains all integers from 1 to N exactly once).

@@ -1,3 +1,5 @@
+Problem: Find longest sequence of zeros in binary representation of an integer
+
 Problem Statement
 Given a positive integer N, find the longest sequence of consecutive zeros in its binary representation that is surrounded by ones at both ends. Return the length of this longest gap.
 

@@ -1,3 +1,5 @@
+Problem: find the earliest time when a frog can jump to the other side of a river.
+
 Problem Statement
 A small frog wants to get to the other side of a river. The frog is initially located at position 0 and wants to reach position X. Leaves fall from a tree onto the river at different positions. Given array A where A[K] represents the position where one leaf falls at time K, find the earliest time when the frog can jump from position 0 to position X.
 
