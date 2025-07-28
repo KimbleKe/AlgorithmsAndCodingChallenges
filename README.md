@@ -88,7 +88,7 @@ __Table of Content__
 | 24 | CountFactors | Optimized Trial Division | O(√N) | O(1) |
 | 25 | MinimumPerimeterRectangle | Optimized Trial Division | O(√N) | O(1) |
 | 26 | AbsoluteDistinctValue | Hash Set + Absolute Value | O(N) | O(N) |
-
+| 27 | Array Reversal | In-Place Swapping | O(N) | O(1) |
 
 #### Medium Problems
 
