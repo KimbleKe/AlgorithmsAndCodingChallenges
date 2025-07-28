@@ -62,11 +62,11 @@ __Table of Content__
 
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
 |---|-------------|--------------------|-----------------|------------------|
-| 1 | ArrListLen | Linked list traversal | O(N) | O(1) |
-| 2 | BinaryGap | Bit manipulation | O(log N) | O(log N) |
-| 3 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
-| 4 | CountDivisibles | Mathematical formula | O(1) | O(1) |
-| 5 | CyclicRotation | Array rotation with modulo | O(N) | O(N) |
+| 1 | BinaryGap | Bit manipulation | O(log N) | O(log N) |
+| 2 | CyclicRotation | Array rotation with modulo | O(N) | O(N) |
+| 3 | ArrListLen | Linked list traversal | O(N) | O(1) |
+| 4 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
+| 5 | CountDivisibles | Mathematical formula | O(1) | O(1) |
 | 6 | DistinctValuesInArray | HashSet tracking | O(N) | O(N) |
 | 7 | DoubleDigitsSum | Mathematical operations | O(1) | O(1) |
 | 8 | FrogJump | Ceiling division | O(1) | O(1) |
