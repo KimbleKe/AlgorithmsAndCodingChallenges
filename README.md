@@ -113,6 +113,7 @@ __Table of Content__
 | 17 | CommonPrimeDivisors | GCD with Prime Divisors Elimination | O(N * log^2(M)) | O(1) |
 | 18 | MushroomPicker | Prefix Sum + Sliding Window | O(N) | O(N) |
 | 19 | ArraySwapToEqualSum | Hashing + Math Equation | O(N + M) | O(M) |
+| 20 | MinMaxDivision | Binary Search + Greedy Partitioning | O(N log S) | O(1) |
 
 
 #### Hard Problems
