@@ -1,7 +1,8 @@
 # author: Kimble Ke
 # date: 2025.7.20
  
-# O(N) Time, O(N) Space
+# Time complexity: O(N)
+# Space complexity: O(N)
 def solution(A):
   n = len(A)
   seen = set()
@@ -10,5 +11,3 @@ def solution(A):
       return 0
     seen.add(num)
   return 1
-
-
