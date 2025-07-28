@@ -1,3 +1,5 @@
+Problem: find the smallest positive integer that does not occur in a given sequence
+
 Problem Statement
 Given an array of integers, find the smallest positive integer that does not appear in the array.
 
