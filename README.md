@@ -79,8 +79,8 @@ __Table of Content__
 | 15 | NestingBrackets | Balance counting | O(N) | O(1) |
 | 16 | OddOccurrencesInArray | Bitwise XOR | O(N) | O(1) |
 | 17 | PassingCars | Prefix sums | O(N) | O(1) |
-| 18 | PermMissingElem | Mathematical formula | O(N) | O(1) |
-| 19 | PermutationArrayCheck | HashSet validation | O(N) | O(N) |
+| 18 | PermutationMissingElem | Mathematical formula | O(N) | O(1) |
+| 19 | PermutationCheck | HashSet validation | O(N) | O(N) |
 | 20 | StrSymmetryPoint | String palindrome check | O(N) | O(1) |
 | 21 | TapeEquilibrium | Prefix sums | O(N) | O(1) |
 | 22 | TreeHeight | DFS/BFS traversal | O(N) | O(N) |
