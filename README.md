@@ -63,7 +63,7 @@ __Table of Content__
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
 |---|-------------|--------------------|-----------------|------------------|
 | 1 | ArrListLen | Linked list traversal | O(N) | O(1) |
-| 2 | BinaryGap | Bit manipulation | O(log N) | O(1) |
+| 2 | BinaryGap | Bit manipulation | O(log N) | O(log N) |
 | 3 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
 | 4 | CountDivisibles | Mathematical formula | O(1) | O(1) |
 | 5 | CyclicRotation | Array rotation with modulo | O(N) | O(N) |
@@ -130,4 +130,6 @@ __Table of Content__
 | 8 | CountSemiPrimesSieveOfEratosthenes | Sieve of Eratosthenes + Prefix Sum | O(N log log N + M) | O(N) |
 | 9 | FibonacciFrogJump | BFS with Fibonacci bounds | O(N * sqrt(N)) | O(N) |
 | 10 | FibonacciLadder | DP (Dynamic Programming) + Fibonacci with Bitwise Modulo | O(L + N) | O(N) |
+| 11 | NailingPlanks | Binary Search + Greedy Selection | O((N + M) log M) | O(M) |
+
 
