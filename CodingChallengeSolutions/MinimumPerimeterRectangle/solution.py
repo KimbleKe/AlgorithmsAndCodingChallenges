@@ -2,7 +2,7 @@
 # date: 2025.7.22
  
 # O(√N) Time, O(1) Space
-def solution1(N):
+def solution(N):
 	min_perimeter = float('inf')
 	i = 1
 	while i * i <= N:

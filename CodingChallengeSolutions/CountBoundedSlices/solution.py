@@ -4,7 +4,7 @@
 # O(N) solution
 from collections import deque
  
-def solution1(K, A):
+def solution(K, A):
     N = len(A)
     left = 0
     count = 0

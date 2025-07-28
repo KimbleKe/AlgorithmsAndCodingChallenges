@@ -2,7 +2,7 @@
 # date: 2025.7.20
  
 # O(N) Time, O(N) Space (this is the preferred solution)
-def solution1(A):
+def solution(A):
   return len(set(A))
 
 # O(NlogN) Time, O(1) Space

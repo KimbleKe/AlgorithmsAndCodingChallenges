@@ -2,7 +2,7 @@
 # date: 2025.7.20
  
 # O(NlogN) Time, O(1) Space, preferred solution
-def solution1(A):
+def solution(A):
   A.sort()
   return max(
     A[-1] * A[-2] * A[-3],    # Case 1: All positive/largest

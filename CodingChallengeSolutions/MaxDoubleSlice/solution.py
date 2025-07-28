@@ -2,7 +2,7 @@
 # date: 2025.7.21
  
 # O(N) Time, O(N) Space
-def solution1(A):
+def solution(A):
 	n = len(A)
 	if n == 3:
 		return 0

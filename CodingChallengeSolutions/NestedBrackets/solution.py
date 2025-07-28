@@ -2,7 +2,7 @@
 # date: 2025.7.21
  
 # O(N) Time, O(N) Space
-def solution1(S):
+def solution(S):
   stack = []
   bracket_pairs = {')': '(', '}': '{', ']': '['}
   

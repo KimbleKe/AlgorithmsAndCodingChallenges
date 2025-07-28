@@ -3,7 +3,7 @@
  
 # O(N * √N) Time incl. peak detection is O(N)
 # O(N) Space
-def solution1(A):
+def solution(A):
 	n = len(A)
 	peaks = [0] * n
 

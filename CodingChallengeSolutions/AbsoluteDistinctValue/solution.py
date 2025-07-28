@@ -3,7 +3,7 @@
  
 # Time complexity O(N)
 # Space complexity O(N)
-def solution1(A):
+def solution(A):
 	# Use a set to store unique absolute values
 	abs_set = set()
 	for num in A:

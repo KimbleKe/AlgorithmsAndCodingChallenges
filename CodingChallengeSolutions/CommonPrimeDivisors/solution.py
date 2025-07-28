@@ -3,7 +3,7 @@
  
 # Time complexity O(N * log(max(A[i], B[i]))²)
 # Space complexity O(1) (excluding input/output arrays)
-def solution1(A, B):
+def solution(A, B):
 	# Euclidean algorithm for GCD
 	def gcd(a, b):
 		while b:

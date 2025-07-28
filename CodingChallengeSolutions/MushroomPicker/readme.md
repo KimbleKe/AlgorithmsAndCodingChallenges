@@ -2,7 +2,7 @@
 You are given a non-empty array A of N integers representing mushrooms placed on a line, and an integer K representing the starting position of the picker. You have M moves, and each move lets you go left or right by one index. Your goal is to collect as many mushrooms as possible in these M moves by moving and picking mushrooms from the cells you pass or stop at.
 
 Write a function:
-  def solution1(A, K, M):
+  def solution(A, K, M):
 that returns the maximum number of mushrooms that can be collected in M moves.
 
 2. Example Input/Output

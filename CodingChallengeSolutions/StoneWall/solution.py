@@ -2,7 +2,7 @@
 # date: 2025.7.21
  
 # O(N) Time, O(N) Space
-def solution1(H):
+def solution(H):
 	stack = [] # memory to store heights seen 
 	blocks = 0
 	for height in H:

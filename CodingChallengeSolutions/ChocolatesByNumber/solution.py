@@ -3,7 +3,7 @@
  
 # Time complexity O(log N)
 # Space complexity O(1)
-def solution1(N, M):
+def solution(N, M):
 	# helper function to compute Greatest Common Divisor GCD using Euclidean Algorithm
 	def gcd(n, m):
 		if n % m == 0:

@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from solution import solution1
+from solution import solution
 
 @dataclass
 class Point2D:
@@ -19,7 +19,7 @@ if __name__ == "__main__":
   print("######## input ########")
   print("A=" + str(A))
 
-  result = solution1(A)
+  result = solution(A)
 
   print("######## result ########")
   print("result is " + str(result))

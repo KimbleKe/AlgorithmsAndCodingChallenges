@@ -2,7 +2,7 @@
 # date: 2025.7.21
  
 # O(N) Time, O(1) Space
-def solution1(S):
+def solution(S):
   balance = 0
   for char in S:
     if char == '(':

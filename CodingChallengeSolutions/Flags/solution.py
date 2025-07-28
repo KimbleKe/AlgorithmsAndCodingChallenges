@@ -3,7 +3,7 @@
  
 # O(N) Time, Peak detection is O(N), flag placement is O(√N) × O(N) → O(N)
 # O(N) Space
-def solution1(A):
+def solution(A):
 	N = len(A)
 	if N < 3:
 		return 0

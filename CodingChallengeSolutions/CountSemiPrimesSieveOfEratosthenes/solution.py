@@ -3,7 +3,7 @@
  
 # Time complexity O(N log log N + M)
 # Space complexity O(N)
-def solution1(N, P, Q):
+def solution(N, P, Q):
 	# Step 1: Sieve Of Eratosthenes algorithm used to find prime numbers up to N
 	is_prime = [True] * (N + 1)
 	is_prime[0] = is_prime[1] = False

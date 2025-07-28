@@ -2,7 +2,7 @@
 # date: 2025.7.20
  
 # O(N) Time, O(1) Space
-def solution1(A):
+def solution(A):
   east_count = 0
   passing_pairs = 0
   

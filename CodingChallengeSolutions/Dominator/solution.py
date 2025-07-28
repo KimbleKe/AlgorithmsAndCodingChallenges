@@ -2,7 +2,7 @@
 # date: 2025.7.21
  
 # O(N) Time, O(1) Space
-def solution1(A):
+def solution(A):
 	candidate = None
 	count = 0
 	# find dominating number 

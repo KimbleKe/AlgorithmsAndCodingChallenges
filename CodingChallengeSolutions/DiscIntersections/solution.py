@@ -2,7 +2,7 @@
 # date: 2025.7.20
  
 # O(NlogN) Time, O(N) Space
-def solution1(A):
+def solution(A):
   n = len(A)
   start_points = []
   end_points = []

@@ -3,7 +3,7 @@
 
 # Time complexity: O(N)
 # Space complexity: O(N)
-def solution1(A, K):
+def solution(A, K):
   if not A:
     return A
   K = K % len(A)

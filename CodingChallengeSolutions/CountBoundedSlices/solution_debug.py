@@ -1,4 +1,4 @@
-from solution import solution1
+from solution import solution
 
 # print input and output
 if __name__ == "__main__":
@@ -12,7 +12,7 @@ if __name__ == "__main__":
         line = f.read().strip()
         K, A = eval(line) 
 
-    result = solution1(K, A)
+    result = solution(K, A)
 
     print("######## input ########")
     print("K=" + str(K) + ", A=" + str(A))

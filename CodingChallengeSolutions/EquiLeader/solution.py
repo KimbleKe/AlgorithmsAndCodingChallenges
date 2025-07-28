@@ -3,7 +3,7 @@
  
 # this problem is extended version of Dominator problem
 # O(N) Time, O(1) Space
-def solution1(A):
+def solution(A):
 	if not A:
 		return 0
 

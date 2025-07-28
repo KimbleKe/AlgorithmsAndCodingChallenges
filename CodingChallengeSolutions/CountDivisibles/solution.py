@@ -2,7 +2,7 @@
 # date: 2025.7.20
  
 # O(1) Time, O(1) Space
-def solution1(A, B, K):
+def solution(A, B, K):
   if K == 0:
     return 0  # Handle invalid case (though K ≥ 1 per constraints)
   

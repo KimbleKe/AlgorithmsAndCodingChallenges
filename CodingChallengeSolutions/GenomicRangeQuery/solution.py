@@ -2,7 +2,7 @@
 # date: 2025.7.20
  
 # O(N+M) Time, O(N) Space
-def solution1(S, P, Q):
+def solution(S, P, Q):
   n = len(S)
   m = len(P)
   a=c=g=t=0

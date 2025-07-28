@@ -4,7 +4,7 @@
 # Time complexity: O((N + M) log M)
 
 # Space complexity: O(M)
-def solution1(A, B, C):
+def solution(A, B, C):
 	# Helper function to check if 'n' nails can cover all planks
 	def can_nail_all(n):
 		sorted_nails = sorted(C[:n])  # Only consider first 'n' nails

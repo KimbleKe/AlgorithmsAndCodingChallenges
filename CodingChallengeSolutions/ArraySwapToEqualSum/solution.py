@@ -3,7 +3,7 @@
  
 # Time complexity: O(N + M)
 # Space complexity: O(M) — due to set for fast lookup
-def solution1(A, B):
+def solution(A, B):
 	sumA = sum(A)
 	sumB = sum(B)
 	delta = sumB - sumA

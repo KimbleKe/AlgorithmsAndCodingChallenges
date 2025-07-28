@@ -2,7 +2,7 @@
 # date: 2025.7.21
  
 # O(N) Time, O(1) Space
-def solution1(A):
+def solution(A):
 	if len(A) < 2:
 		return 0
 	min_price = A[0]

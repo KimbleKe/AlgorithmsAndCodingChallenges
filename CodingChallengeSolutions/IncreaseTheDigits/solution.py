@@ -2,7 +2,7 @@
 # date: 2025.7.15
 
 # O(N) solution
-def solution1(n):
+def solution(n):
   result = []
   for digit in str(n):
     new_digit = (int(digit) + 1) % 10

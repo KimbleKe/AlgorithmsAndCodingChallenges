@@ -2,7 +2,7 @@
 # date: 2025.7.20
  
 # O(N) Time, O(1) Space
-def solution1(A):
+def solution(A):
   # solution is based on math theory that slices of 4 or more numbers always 
   # contain a smaller slice with lower average, hence only slices of 2 or 3
   # elements need to be tested in the algorithm

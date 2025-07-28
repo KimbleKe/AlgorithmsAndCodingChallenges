@@ -2,7 +2,7 @@
 # date: 2025.7.19
  
 # O(N) Time, O(N) Space
-def solution1(A):
+def solution(A):
   seen = set(A)
   for i in range(1, len(A)+2):
     if i not in seen:

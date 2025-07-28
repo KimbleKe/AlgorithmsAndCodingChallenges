@@ -3,7 +3,7 @@
  
 # Time complexity O(L + N) (Where N = max(A) + 2, for precomputing Fibonacci sequence)
 # Space complexity O(N)
-def solution1(A, B):
+def solution(A, B):
 	L = len(A)
 
 	# ladder has no rung, no way to climb

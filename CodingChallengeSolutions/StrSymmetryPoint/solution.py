@@ -2,7 +2,7 @@
 # date: 2025.7.6
 
 # O(N) solution
-def solution1(S):
+def solution(S):
   N = len(S)
   if N == 0:
     return -1

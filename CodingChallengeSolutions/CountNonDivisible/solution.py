@@ -3,7 +3,7 @@
  
 # Time complexity O(N log N)
 # Space complexity O(N + max(A))
-def solution1(A):
+def solution(A):
 	n = len(A)
 
 	# compute prefix array "count" which count frequency of each number in A

@@ -12,7 +12,7 @@ class Tree:
   l: Optional["Tree"] = None
   r: Optional["Tree"] = None
 
-def solution1(T) -> int:
+def solution(T) -> int:
   if T is None:
     return -1  # Empty tree has height -1 (by convention)
 

@@ -36,7 +36,7 @@ def convex_hull(points: List[Point2D]) -> List[Point2D]:
   full_hull = lower[:-1] + upper[:-1]
   return full_hull
 
-def solution1(A) -> int:
+def solution(A) -> int:
   n = len(A)
   if n < 3:
     return -1

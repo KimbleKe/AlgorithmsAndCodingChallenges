@@ -2,7 +2,7 @@
 # date: 2025.7.15
  
 # Time Complexity O(N)
-def solution1(A):
+def solution(A):
   total = sum(A)
   left_sum = 0
   min_diff = float('inf')

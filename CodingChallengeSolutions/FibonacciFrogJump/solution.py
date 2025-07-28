@@ -3,7 +3,7 @@
  
 # Time complexity O(N * sqrt(N))
 # Space complexity O(N)
-def solution1(A):
+def solution(A):
 	# Generate all Fibonacci numbers up to len(A) + 1
 	# The frog can jump any number of steps that is a Fibonacci number
 	F = [0, 1]

@@ -3,7 +3,7 @@
  
 # Time complexity: O(N)
 # Space complexity: O(N)
-def solution1(A, K, M):
+def solution(A, K, M):
 	N = len(A)
 	# Prefix sums to allow O(1) range sum queries
 	prefix_sum = [0] * (N + 1)

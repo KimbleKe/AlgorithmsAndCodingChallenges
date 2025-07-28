@@ -2,7 +2,7 @@
 # date: 2025.7.22
  
 # O(√N) Time, O(1) Space
-def solution1(N):
+def solution(N):
 	if N == 1:
 		return 1
 	factors = 0

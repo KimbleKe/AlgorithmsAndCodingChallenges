@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 from typing import Optional
-from TreeHeight_bfs_solution import solution1
+from TreeHeight_bfs_solution import solution
 
 @dataclass
 class Tree:
@@ -28,7 +28,7 @@ if __name__ == "__main__":
   print("######## input ########")
   print("A=" + str(A))
 
-  result = solution1(A)
+  result = solution(A)
 
   print("######## result ########")
   print("result is " + str(result))
