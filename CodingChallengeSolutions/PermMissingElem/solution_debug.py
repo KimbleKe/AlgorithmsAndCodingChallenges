@@ -1,4 +1,4 @@
-from solution import solution
+from solution import solution1
 
 # print input and output
 if __name__ == "__main__":
@@ -15,7 +15,7 @@ if __name__ == "__main__":
   print("######## input ########")
   print("A=" + str(A))
 
-  result = solution(A)
+  result = solution1(A)
 
   print("######## result ########")
   print("result is " + str(result))
