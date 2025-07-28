@@ -55,8 +55,8 @@ __Table of Content__
 ## Coding challenges
 
 #### Total number of challenges
-- Easy=26, Medium=19, Hard=10
-- Total=55
+- Easy=27, Medium=20, Hard=11
+- Total=58
 
 #### Easy Problems
 
