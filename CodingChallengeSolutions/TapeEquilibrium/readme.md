@@ -9,6 +9,12 @@ A = [1, 1] → Output 0 (Perfect balance)
 A = [-1000, 1000] → Output 2000 (Extreme values)
 
 
+<br><br><br>
+
+> **Difficulty level**
+> easy
+
+----
 
 Detailed problem description
 
@@ -52,10 +58,3 @@ Write an efficient algorithm for the following assumptions:
 
 N is an integer within the range [2..100,000];
 each element of array A is an integer within the range [−1,000..1,000].
-
-
-
-<br><br><br>
-
-> **Difficulty level**
-> easy
