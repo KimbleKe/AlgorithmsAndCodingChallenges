@@ -1,7 +1,8 @@
 # author: Kimble Ke
 # date: 2025.7.15
  
-# Time Complexity O(N)
+# Time complexity: O(N)
+# Space complexity: O(1)
 def solution(A):
   total = sum(A)
   left_sum = 0
@@ -17,4 +18,3 @@ def solution(A):
         break
   
   return min_diff
-
