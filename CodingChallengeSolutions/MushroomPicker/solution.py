@@ -1,8 +1,8 @@
 # author: Kimble Ke
 # date: 2025.7.25
  
-# Time complexity - O(N)
-# Space complexity - O(N)
+# Time complexity: O(N)
+# Space complexity: O(N)
 def solution1(A, K, M):
 	N = len(A)
 	# Prefix sums to allow O(1) range sum queries

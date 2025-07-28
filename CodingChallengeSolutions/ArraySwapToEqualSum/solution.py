@@ -1,8 +1,8 @@
 # author: Kimble Ke
 # date: 2025.7.25
  
-# Time complexity - O(N + M)
-# Space complexity - O(M) — due to set for fast lookup
+# Time complexity: O(N + M)
+# Space complexity: O(M) — due to set for fast lookup
 def solution1(A, B):
 	sumA = sum(A)
 	sumB = sum(B)

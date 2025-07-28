@@ -1,9 +1,9 @@
 # author: Kimble Ke
 # date: 2025.7.28
  
-# Time complexity - O((N + M) log M)
+# Time complexity: O((N + M) log M)
 
-# Space complexity - O(M)
+# Space complexity: O(M)
 def solution1(A, B, C):
 	# Helper function to check if 'n' nails can cover all planks
 	def can_nail_all(n):

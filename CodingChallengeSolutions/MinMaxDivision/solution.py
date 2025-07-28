@@ -1,8 +1,8 @@
 # author: Kimble Ke
 # date: 2025.7.28
  
-# Time complexity - O(N log S)
-# Space complexity - O(1)
+# Time complexity: O(N log S)
+# Space complexity: O(1)
 def solution1(K, A):
 	# Helper function to check whether the array A
 	# can be divided into at most K blocks
