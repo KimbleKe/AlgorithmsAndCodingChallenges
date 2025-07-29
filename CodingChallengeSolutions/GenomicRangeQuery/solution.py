@@ -109,3 +109,14 @@ def solution2(S, P, Q):
 # min{idx 5 .. 5} = min{4} = 4
 # min{idx 0 .. 6} = min{2,1,3,2,2,4,1} = 1
 # result = [2,4,1]
+#
+# when using prefix sum technique
+# you get the following handy data structure
+# {
+#		S =		C,A,G,C,C,T,A
+#		A: [0,0,1,1,1,1,1,2]
+#		C: [0,1,1,1,2,3,3,3]
+# 	G: [0,0,0,1,1,1,1,1]
+#		T: [0,0,0,0,0,0,1,1]
+# }
+# then you only need to check A,C,G,T nucleotide in order as impact factor is ordered by A<C<G<T
