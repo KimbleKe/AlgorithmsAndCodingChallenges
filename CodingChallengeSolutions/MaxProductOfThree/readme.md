@@ -1,4 +1,6 @@
 Problem: MaxProductOfThree
+  Maximize A[P] * A[Q] * A[R] for any triplet (P, Q, R).
+
 Task Description:
 Given a non-empty array A of N integers, return the maximum product of any triplet (A[P] * A[Q] * A[R]) where 0 ≤ P < Q < R < N.
 

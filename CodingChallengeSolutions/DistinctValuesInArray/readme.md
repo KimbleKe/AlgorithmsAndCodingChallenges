@@ -1,4 +1,6 @@
-Problem: DistinctValuesInArray
+Problem: DistinctValuesInArray, a.k.a. Distinct
+  compute the number of distinct values in array
+
 Task Description:
 Given an array A of N integers, return the number of distinct values in the array.
 

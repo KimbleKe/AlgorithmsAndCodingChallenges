@@ -1,4 +1,6 @@
 Problem: DiscIntersections
+  compute the number of intersections in a sequence of discs
+
 Task Description:
 Given an array A of N integers where each element A[i] represents the radius of a disc centered at (i, 0) on a 2D plane, compute the number of intersecting discs. If the number exceeds 10,000,000, return -1.
 
