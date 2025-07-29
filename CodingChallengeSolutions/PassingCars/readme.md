@@ -1,4 +1,6 @@
 Problem: PassingCars
+  count the number of passing cars on the road.
+
 Task Description:
 Given a non-empty array A consisting of N integers where 0 represents a car traveling east and 1 represents a car traveling west, count the number of passing cars (pairs (P, Q) where 0 ≤ P < Q < N and A[P] = 0 and A[Q] = 1). If the count exceeds 1,000,000,000, return -1.
 

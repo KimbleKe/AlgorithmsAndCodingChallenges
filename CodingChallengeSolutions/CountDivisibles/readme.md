@@ -1,4 +1,6 @@
 Problem: CountDivisibles
+  compute number of integers divisible by k in range [a..b].
+
 Task Description:
 Given three integers A, B, and K, return the count of numbers between A and B (inclusive) that are divisible by K.
 

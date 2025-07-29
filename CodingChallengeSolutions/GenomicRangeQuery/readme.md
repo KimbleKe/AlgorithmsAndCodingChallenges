@@ -1,6 +1,8 @@
-Problem: GenomicRangeQuery
+Problem: GenomicRangeQuery 基因组范围查询
+  find the minimal nucleotide from a range of sequence DNA.
+
 Task Description:
-Given a DNA sequence S (consisting of characters 'A', 'C', 'G', 'T') and two arrays P and Q (each of length M), where each pair (P[k], Q[k]) represents a query for the minimal nucleotide impact factor in S[P[k]..Q[k]]. The impact factors are: A=1, C=2, G=3, T=4. Return an array of answers for all queries.
+Given a DNA sequence S (consisting of characters 'A', 'C', 'G', 'T') and two arrays P and Q (each of length M), where each pair (P[k], Q[k]) represents a query for the minimal nucleotide impact factor 核苷酸影响因子 in S[P[k]..Q[k]]. The impact factors are: A=1, C=2, G=3, T=4. Return an array of answers for all queries.
 
 Examples:
 S = "CAGCCTA", P = [2, 5, 0], Q = [4, 5, 6] → Returns [2, 4, 1]
