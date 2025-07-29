@@ -90,6 +90,7 @@ __Table of Content__
 | 26 | AbsoluteDistinctValue | Hash Set + Absolute Value | O(N) | O(N) |
 | 27 | Array Reversal | In-Place Swapping | O(N) | O(1) |
 
+
 #### Medium Problems
 
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
@@ -131,5 +132,3 @@ __Table of Content__
 | 9 | FibonacciFrogJump | BFS with Fibonacci bounds | O(N * sqrt(N)) | O(N) |
 | 10 | FibonacciLadder | DP (Dynamic Programming) + Fibonacci with Bitwise Modulo | O(L + N) | O(N) |
 | 11 | NailingPlanks | Binary Search + Greedy Selection | O((N + M) log M) | O(M) |
-
-
