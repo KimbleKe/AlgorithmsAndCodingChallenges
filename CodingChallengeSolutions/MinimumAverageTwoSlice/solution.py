@@ -35,7 +35,7 @@ def solution1(A):
     n = len(A)
     prefix_sum = [0]*(n+1)
     min_avg = float('inf')
-    smallest_starting_pos = -1
+    smallest_starting_pos = 0
 
     for i in range(n):
       prefix_sum[i+1] = prefix_sum[i] + A[i]
