@@ -5,6 +5,8 @@
 def solution(A):
   return len(set(A))
 
+#####################################
+
 # O(NlogN) Time, O(1) Space
 def solution2(A):
   if not A:

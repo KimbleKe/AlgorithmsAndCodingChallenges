@@ -55,7 +55,7 @@ __Table of Content__
 ## Coding challenges
 
 #### Total number of challenges
-- Easy=27, Medium=20, Hard=11
+- Easy=27, Medium=21, Hard=10
 - Total=58
 
 #### Easy Problems
@@ -115,6 +115,7 @@ __Table of Content__
 | 18 | MushroomPicker | Prefix Sum + Sliding Window | O(N) | O(N) |
 | 19 | ArraySwapToEqualSum | Hashing + Math Equation | O(N + M) | O(M) |
 | 20 | MinMaxDivision | Binary Search + Greedy Partitioning | O(N log S) | O(1) |
+| 21 | DiscIntersections | Line sweep algorithm | O(N log N) | O(N) |
 
 
 #### Hard Problems
@@ -123,12 +124,11 @@ __Table of Content__
 |---|-------------|--------------------|-----------------|------------------|
 | 1 | ArrayInversionCount | Modified merge sort | O(N log N) | O(N) |
 | 2 | CountriesCount | DFS/BFS (flood fill) | O(N*M) | O(N*M) |
-| 3 | DiscIntersections | Line sweep algorithm | O(N log N) | O(N) |
-| 4 | DisappearingPairs | Stack/DFS simulation | O(N) | O(N) |
-| 5 | PolygonConcavityIndex | Computational geometry | O(N) | O(1) |
-| 6 | Flags | Peak Detection, Binary Search, Greedy Placement | O(N) | O(N) |
-| 7 | Peaks | Prefix Sum + Divisors Check | O(N * √N) | O(N) |
-| 8 | CountSemiPrimesSieveOfEratosthenes | Sieve of Eratosthenes + Prefix Sum | O(N log log N + M) | O(N) |
-| 9 | FibonacciFrogJump | BFS with Fibonacci bounds | O(N * sqrt(N)) | O(N) |
-| 10 | FibonacciLadder | DP (Dynamic Programming) + Fibonacci with Bitwise Modulo | O(L + N) | O(N) |
-| 11 | NailingPlanks | Binary Search + Greedy Selection | O((N + M) log M) | O(M) |
+| 3 | DisappearingPairs | Stack/DFS simulation | O(N) | O(N) |
+| 4 | PolygonConcavityIndex | Computational geometry | O(N) | O(1) |
+| 5 | Flags | Peak Detection, Binary Search, Greedy Placement | O(N) | O(N) |
+| 6 | Peaks | Prefix Sum + Divisors Check | O(N * √N) | O(N) |
+| 7 | CountSemiPrimesSieveOfEratosthenes | Sieve of Eratosthenes + Prefix Sum | O(N log log N + M) | O(N) |
+| 8 | FibonacciFrogJump | BFS with Fibonacci bounds | O(N * sqrt(N)) | O(N) |
+| 9 | FibonacciLadder | DP (Dynamic Programming) + Fibonacci with Bitwise Modulo | O(L + N) | O(N) |
+| 10 | NailingPlanks | Binary Search + Greedy Selection | O((N + M) log M) | O(M) |
