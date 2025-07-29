@@ -1,4 +1,6 @@
-Problem: TriangleTriplet
+Problem: TriangleTriplet 三角三元组
+  determine whether a triangle can be built from a given set of edges.
+
 Task Description:
 Given an array A of N integers, determine whether there exists a triplet (P, Q, R) such that 0 ≤ P < Q < R < N and the triplet satisfies the triangle inequality:
 A[P] + A[Q] > A[R],
