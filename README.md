@@ -66,7 +66,7 @@ __Table of Content__
 | 2 | CyclicRotation | Array rotation with modulo | O(N) | O(N) |
 | 3 | ArrListLen | Linked list traversal | O(N) | O(1) |
 | 4 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
-| 5 | CountDivisibles | Mathematical formula | O(1) | O(1) |
+| 5 | CountDivisibles | Prefix sums | O(1) | O(1) |
 | 6 | DistinctValuesInArray | HashSet tracking | O(N) | O(N) |
 | 7 | DoubleDigitsSum | Mathematical operations | O(1) | O(1) |
 | 8 | FrogJump | Ceiling division | O(1) | O(1) |
