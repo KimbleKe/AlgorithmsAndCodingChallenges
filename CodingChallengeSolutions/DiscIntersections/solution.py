@@ -2,6 +2,7 @@
 # date: 2025.7.20
  
 # O(NlogN) Time, O(N) Space
+# Algorithms: sorting, for loop + while loop + pointer
 def solution(A):
   n = len(A)
   start_points = []
@@ -19,7 +20,7 @@ def solution(A):
   end_ptr = 0
   
   for start_ptr in range(n):
-    while end_ptr < n and end_points[end_ptr] < start_points[start_ptr]:
+    while end_ptr < n and not (end_points[end_ptr] >= start_points[start_ptr]): # while not intersecting
       active_discs -= 1
       end_ptr += 1
     intersections += active_discs

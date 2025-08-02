@@ -4,7 +4,7 @@
 # Time complexity: O((N + M) log M)
 
 # Space complexity: O(M)
-# Algorithms: binary search, sorting, while loop + pointer
+# Algorithms: binary search, sorting, for loop + while loop + pointer
 def solution(A, B, C):
 	# check if C[:n] first n nails can nail all planks, helper function is O(N+M)
 	def is_nailed(A, B, C, n):
