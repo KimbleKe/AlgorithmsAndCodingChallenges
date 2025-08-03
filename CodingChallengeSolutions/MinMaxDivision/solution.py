@@ -1,7 +1,7 @@
 # author: Kimble Ke
 # date: 2025.7.28
  
-# Time complexity: O(N log S)
+# Time complexity: O(Nlog(Sum))
 # Space complexity: O(1)
 def solution(K, A):
 	# Helper function to check whether the array A
