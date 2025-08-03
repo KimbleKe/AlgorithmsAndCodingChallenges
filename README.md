@@ -62,16 +62,16 @@ __Table of Content__
 
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
 |---|-------------|--------------------|-----------------|------------------|
-| 1 | BinaryGap | Bit manipulation | O(log N) | O(log N) |
-| 2 | CyclicRotation | Array rotation with modulo | O(N) | O(N) |
-| 3 | ArrListLen | Linked list traversal | O(N) | O(1) |
-| 4 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
-| 5 | CountDivisibles | Prefix sums | O(1) | O(1) |
-| 6 | DistinctValuesInArray | HashSet tracking | O(N) | O(N) |
-| 7 | DoubleDigitsSum | Mathematical operations | O(1) | O(1) |
-| 8 | FrogJump | Ceiling division | O(1) | O(1) |
-| 9 | FrogRiverOne | HashSet tracking | O(N) | O(N) |
-| 10 | IncreaseTheDigits | String manipulation | O(N) | O(N) |
+| 1 | DoubleDigitsSum | Mathematical operations | O(1) | O(1) |
+| 2 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
+| 3 | IncreaseTheDigits | String manipulation | O(N) | O(N) |
+| 4 | BinaryGap | Bit manipulation | O(log N) | O(log N) |
+| 5 | CyclicRotation | Array rotation with modulo | O(N) | O(N) |
+| 6 | ArrListLen | Linked list traversal | O(N) | O(1) |
+| 7 | CountDivisibles | Prefix sums | O(1) | O(1) |
+| 8 | DistinctValuesInArray | HashSet tracking | O(N) | O(N) |
+| 9 | FrogJump | Ceiling division | O(1) | O(1) |
+| 10 | FrogRiverOne | HashSet tracking | O(N) | O(N) |
 | 11 | MaxProductOfThree | Sorting + greedy | O(N log N) | O(1) |
 | 12 | MaxProfit | Single pass (Kadane-like) | O(N) | O(1) |
 | 13 | MissingInteger | HashSet tracking | O(N) | O(N) |
