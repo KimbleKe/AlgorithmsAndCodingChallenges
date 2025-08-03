@@ -23,7 +23,7 @@ Space: O(N)
 <br><br><br>
 
 > **Difficulty level**
-> easy to medium
+> easy 
 
 
 ----
