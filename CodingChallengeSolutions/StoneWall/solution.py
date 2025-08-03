@@ -11,4 +11,6 @@ def solution(H):
 		if not stack or stack[-1] < height:
 			stack.append(height)
 			blocks += 1  # increment blocks needed when height increase 
+		print(stack)
+		print(blocks)
 	return blocks

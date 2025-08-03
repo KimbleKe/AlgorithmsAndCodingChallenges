@@ -55,7 +55,7 @@ __Table of Content__
 ## Coding challenges
 
 #### Total number of challenges
-- Easy=27, Medium=21, Hard=10
+- Easy=29, Medium=19, Hard=10
 - Total=58
 
 #### Easy Problems
@@ -76,19 +76,21 @@ __Table of Content__
 | 12 | MaxProfit | Single pass (Kadane-like) | O(N) | O(1) |
 | 13 | MissingInteger | HashSet tracking | O(N) | O(N) |
 | 14 | NestedBrackets | Stack validation | O(N) | O(N) |
-| 15 | NestingBrackets | Balance counting | O(N) | O(1) |
-| 16 | OddOccurrencesInArray | Bitwise XOR | O(N) | O(1) |
-| 17 | PassingCars | Prefix sums | O(N) | O(1) |
-| 18 | PermutationMissingElem | Mathematical formula | O(N) | O(1) |
-| 19 | PermutationCheck | HashSet validation | O(N) | O(N) |
-| 20 | StrSymmetryPoint | String palindrome check | O(N) | O(1) |
-| 21 | TapeEquilibrium | Prefix sums | O(N) | O(1) |
-| 22 | TreeHeight | DFS/BFS traversal | O(N) | O(N) |
-| 23 | TriangleTriplet | Sorting + greedy | O(N log N) | O(1) |
-| 24 | CountFactors | Optimized Trial Division | O(√N) | O(1) |
-| 25 | MinimumPerimeterRectangle | Optimized Trial Division | O(√N) | O(1) |
-| 26 | AbsoluteDistinctValue | Hash Set + Absolute Value | O(N) | O(N) |
-| 27 | Array Reversal | In-Place Swapping | O(N) | O(1) |
+| 15 | NestingBrackets | Stack validation, Balance counting | O(N) | O(1) |
+| 16 | Fish | Stack simulation | O(N) | O(N) |
+| 17 | StoneWall | Stack tracking | O(N) | O(N) |
+| 18 | OddOccurrencesInArray | Bitwise XOR | O(N) | O(1) |
+| 19 | PassingCars | Prefix sums | O(N) | O(1) |
+| 20 | PermutationMissingElem | Mathematical formula | O(N) | O(1) |
+| 21 | PermutationCheck | HashSet validation | O(N) | O(N) |
+| 22 | StrSymmetryPoint | String palindrome check | O(N) | O(1) |
+| 23 | TapeEquilibrium | Prefix sums | O(N) | O(1) |
+| 24 | TreeHeight | DFS/BFS traversal | O(N) | O(N) |
+| 25 | TriangleTriplet | Sorting + greedy | O(N log N) | O(1) |
+| 26 | CountFactors | Optimized Trial Division | O(√N) | O(1) |
+| 27 | MinimumPerimeterRectangle | Optimized Trial Division | O(√N) | O(1) |
+| 28 | AbsoluteDistinctValue | Hash Set + Absolute Value | O(N) | O(N) |
+| 29 | Array Reversal | In-Place Swapping | O(N) | O(1) |
 
 
 #### Medium Problems
@@ -99,23 +101,21 @@ __Table of Content__
 | 2 | Dominator | Moore's voting | O(N) | O(1) |
 | 3 | EquiLeader | Leader + prefix sums | O(N) | O(N) |
 | 4 | FirstUnique | LinkedHashSet | O(N) | O(N) |
-| 5 | Fish | Stack simulation | O(N) | O(N) |
-| 6 | GenomicRangeQuery | Prefix sums | O(N+M) | O(N) |
-| 7 | MaxCounters | Lazy propagation | O(N+M) | O(N) |
-| 8 | MaxSliceSum | Kadane's algorithm | O(N) | O(1) |
-| 9 | MinAbsSumOfTwo | Sorting + two pointers | O(N log N) | O(1) |
-| 10 | MinimumAverageSlice | Prefix sums | O(N) | O(1) |
-| 11 | MissingPositiveIntegerInArray | In-place hashing | O(N) | O(1) |
-| 12 | StoneWall | Stack tracking | O(N) | O(N) |
-| 13 | TreeLongestZigZag | DFS traversal | O(N) | O(N) |
-| 14 | MaxDoubleSlice | Prefix Sums, Kadane's algorithm, DynamicProgramming | O(N) | O(N) |
-| 15 | CountNonDivisible | Divisor Counting + Frequency Map | O(N log N) | O(N + max(A)) |
-| 16 | ChocolatesByNumber | Math (Least Common Multiple LCM and Greatest Common Divisor GCD with Euclidean Algorithm) | O(log N) | O(1) |
-| 17 | CommonPrimeDivisors | GCD with Prime Divisors Elimination | O(N * log^2(M)) | O(1) |
-| 18 | MushroomPicker | Prefix Sum + Sliding Window | O(N) | O(N) |
-| 19 | ArraySwapToEqualSum | Hashing + Math Equation | O(N + M) | O(M) |
-| 20 | MinMaxDivision | Binary Search + Greedy Partitioning | O(N log S) | O(1) |
-| 21 | DiscIntersections | Line sweep algorithm | O(N log N) | O(N) |
+| 5 | GenomicRangeQuery | Prefix sums | O(N+M) | O(N) |
+| 6 | MaxCounters | Lazy propagation | O(N+M) | O(N) |
+| 7 | MaxSliceSum | Kadane's algorithm | O(N) | O(1) |
+| 8 | MinAbsSumOfTwo | Sorting + two pointers | O(N log N) | O(1) |
+| 9 | MinimumAverageSlice | Prefix sums | O(N) | O(1) |
+| 10 | MissingPositiveIntegerInArray | In-place hashing | O(N) | O(1) |
+| 11 | TreeLongestZigZag | DFS traversal | O(N) | O(N) |
+| 12 | MaxDoubleSlice | Prefix Sums, Kadane's algorithm, DynamicProgramming | O(N) | O(N) |
+| 13 | CountNonDivisible | Divisor Counting + Frequency Map | O(N log N) | O(N + max(A)) |
+| 14 | ChocolatesByNumber | Math (Least Common Multiple LCM and Greatest Common Divisor GCD with Euclidean Algorithm) | O(log N) | O(1) |
+| 15 | CommonPrimeDivisors | GCD with Prime Divisors Elimination | O(N * log^2(M)) | O(1) |
+| 16 | MushroomPicker | Prefix Sum + Sliding Window | O(N) | O(N) |
+| 17 | ArraySwapToEqualSum | Hashing + Math Equation | O(N + M) | O(M) |
+| 18 | MinMaxDivision | Binary Search + Greedy Partitioning | O(N log S) | O(1) |
+| 19 | DiscIntersections | Line sweep algorithm | O(N log N) | O(N) |
 
 
 #### Hard Problems
