@@ -6,13 +6,14 @@
 def solution(n):
   return int(str(n)[::-1])
 
-# Note: (this is cleanest solution)
+# Note: (this is cleanest solution, best balance of speed and readability)
 # Syntax Breakdown:
   # sequence[start:stop:step]
     # start: Index to begin (default: 0).
     # stop: Index to end (default: end of sequence).
     # step: Interval between elements (default: 1).
   # Negative step (e.g., -1): Reverses the sequence.
+# Also, Slicing ([::-1]) is slightly faster in practice due to Python’s optimizations
 
 ############################################################
 
