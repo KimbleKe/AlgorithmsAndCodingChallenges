@@ -17,6 +17,8 @@ def solution(A):
 		return A.index(candidate)
 	return -1
 
+###############################################
+
 # O(N) Time, O(N) Space
 def solution2(A):
 	if len(A) == 0:
