@@ -10,12 +10,12 @@ if __name__ == "__main__":
   input_file = sys.argv[1]
   with open(input_file, 'r') as f:
     line = f.read().strip()
-    A,B = eval(line) 
+    K,A = eval(line) 
 
   print("######## input ########")
-  print("A=" + str(A) + ",B=" + str(B))
+  print("A=" + str(A) + ",K=" + str(K))
 
-  result = solution(A,B)
+  result = solution(K,A)
 
   print("######## result ########")
   print("result is " + str(result))

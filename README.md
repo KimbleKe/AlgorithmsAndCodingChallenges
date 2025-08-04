@@ -55,8 +55,8 @@ __Table of Content__
 ## Coding challenges
 
 #### Total number of challenges
-- Easy=33, Medium=23, Hard=5
-- Total=61
+- Easy=34, Medium=23, Hard=5
+- Total=62
 
 #### Easy Problems
 
@@ -88,14 +88,15 @@ __Table of Content__
 | 24 | ChocolatesByNumber | Math (Least Common Multiple LCM and Greatest Common Divisor GCD with Euclidean Algorithm) | O(log N) | O(1) |
 | 25 | AbsoluteDistinctValue | Hash Set + Absolute Value | O(N) | O(N) |
 | 26 | MaxNonoverlappingSegments | Greedy Selection Based on End Time | O(N) | O(1) |
+| 27 | TieRopes | Greedy Accumulation | O(N) | O(1) |
 --
-| 27 | DoubleDigitsSum | Mathematical operations | O(1) | O(1) |
-| 28 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
-| 29 | IncreaseTheDigits | String manipulation | O(N) | O(N) |
-| 30 | ArrListLen | Linked list traversal | O(N) | O(1) |
-| 31 | StrSymmetryPoint | String palindrome check | O(N) | O(1) |
-| 32 | TreeHeight | DFS/BFS traversal | O(N) | O(N) |
-| 33 | Array Reversal | In-Place Swapping | O(N) | O(1) |
+| 28 | DoubleDigitsSum | Mathematical operations | O(1) | O(1) |
+| 29 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
+| 30 | IncreaseTheDigits | String manipulation | O(N) | O(N) |
+| 31 | ArrListLen | Linked list traversal | O(N) | O(1) |
+| 32 | StrSymmetryPoint | String palindrome check | O(N) | O(1) |
+| 33 | TreeHeight | DFS/BFS traversal | O(N) | O(N) |
+| 34 | Array Reversal | In-Place Swapping | O(N) | O(1) |
 
 
 #### Medium Problems
