@@ -2,7 +2,9 @@ Coding challenges and solutions
 =====================================
 
 **string/numbers manipulation**
-- str(), int(), float(), abs(), len(), reversed()
+- str(), int(), abs()
+- len(), reversed()
+- float('inf')
 - modulo, //, %
 - ''.join(string)
 
