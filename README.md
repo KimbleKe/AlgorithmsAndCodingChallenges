@@ -88,6 +88,8 @@ __Table of Content__
 | 24 | ChocolatesByNumber | Math (Least Common Multiple LCM and Greatest Common Divisor GCD with Euclidean Algorithm) | O(log N) | O(1) |
 | 25 | AbsoluteDistinctValue | Hash Set + Absolute Value | O(N) | O(N) |
 ---
+| # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
+|---|-------------|--------------------|-----------------|------------------|
 | 26 | DoubleDigitsSum | Mathematical operations | O(1) | O(1) |
 | 27 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
 | 28 | IncreaseTheDigits | String manipulation | O(N) | O(N) |
@@ -119,6 +121,8 @@ __Table of Content__
 | 16 | NailingPlanks | Binary Search + Greedy Selection | O((N + M) log M) | O(M) |
 | 17 | MinAbsSumOfTwo | Caterpillar, Sorting + two pointers | O(N log N) | O(1) |
 ---
+| # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
+|---|-------------|--------------------|-----------------|------------------|
 | 18 | CountBoundedSlices | Sliding window | O(N) | O(1) |
 | 19 | FirstUnique | LinkedHashSet | O(N) | O(N) |
 | 20 | TreeLongestZigZag | DFS traversal | O(N) | O(N) |
@@ -132,6 +136,8 @@ __Table of Content__
 |---|-------------|--------------------|-----------------|------------------|
 | 1 | MinAbsSum | DP with Knapsack Variant | O(N * S) | O(S) |
 ---
+| # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
+|---|-------------|--------------------|-----------------|------------------|
 | 2 | ArrayInversionCount | Modified merge sort | O(N log N) | O(N) |
 | 3 | CountriesCount | DFS/BFS (flood fill) | O(N*M) | O(N*M) |
 | 4 | DisappearingPairs | Stack/DFS simulation | O(N) | O(N) |
