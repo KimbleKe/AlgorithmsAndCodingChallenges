@@ -110,7 +110,7 @@ __Table of Content__
 | 3 | GenomicRangeQuery | Prefix sums | O(N+M) | O(N) |
 | 4 | MinimumAverageSlice | Prefix sums | O(N) | O(1) |
 | 5 | DiscIntersections | Soring, Line sweep algorithm | O(N log N) | O(N) |
-| 6 | MaxDoubleSlice | MaxSlice, Prefix Sums, Kadane's algorithm, DynamicProgramming | O(N) | O(N) |
+| 6 | MaxDoubleSliceSum | MaxSlice, Prefix Sums, Kadane's algorithm, DynamicProgramming | O(N) | O(N) |
 | 7 | MissingPositiveIntegerInArray | In-place hashing | O(N) | O(1) |
 | 8 | Flags | Prime and composite numbers, Peak Detection, Binary Search, Greedy Placement | O(N) | O(N) |
 | 9 | Peaks | Prime and composite numbers, Prefix Sum + Divisors Check | O(N * √N) | O(N) |
