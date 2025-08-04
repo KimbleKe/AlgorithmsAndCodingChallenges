@@ -1,5 +1,5 @@
 1. Problem: 
-  e adjacent ropes to achieve the maximum number of ropes of length >= K.
+  tie adjacent ropes to achieve the maximum number of ropes of length >= K.
 
 You are given N ropes of various lengths. You are also given an integer K. You need to tie the ropes together (in any order), but only keep the ones whose length is greater than or equal to K.
 Two ropes can be tied together by summing their lengths. Your task is to find the maximum number of ropes you can tie such that each has a length ≥ K
