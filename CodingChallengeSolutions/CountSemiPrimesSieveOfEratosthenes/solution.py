@@ -32,5 +32,3 @@ def solution(N, P, Q):
 		result.append(prefix[Q[i]] - prefix[P[i] - 1])
 
 	return result
-
-
