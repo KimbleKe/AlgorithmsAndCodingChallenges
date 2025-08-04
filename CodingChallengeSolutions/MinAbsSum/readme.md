@@ -1,6 +1,5 @@
 1. Problem Description:
-
-Codility – MinAbsSum
+  given array of integers, find the lowest absolute sum of elements.
 
 You are given an array A of N integers. You want to divide each element by assigning a sign (+ or -) such that the absolute value of the total sum is minimized.
 

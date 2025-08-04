@@ -55,8 +55,8 @@ __Table of Content__
 ## Coding challenges
 
 #### Total number of challenges
-- Easy=32, Medium=22, Hard=5
-- Total=59
+- Easy=32, Medium=23, Hard=5
+- Total=60
 
 #### Easy Problems
 
@@ -118,12 +118,13 @@ __Table of Content__
 | 15 | MinMaxDivision | Binary Search + Greedy Partitioning | O(N log S) | O(1) |
 | 16 | NailingPlanks | Binary Search + Greedy Selection | O((N + M) log M) | O(M) |
 | 17 | MinAbsSumOfTwo | Caterpillar, Sorting + two pointers | O(N log N) | O(1) |
+| 18 | NumberSolitaire | Dynamic Programming | O(N) | O(N) |
 --
-| 18 | CountBoundedSlices | Sliding window | O(N) | O(1) |
-| 19 | FirstUnique | LinkedHashSet | O(N) | O(N) |
-| 20 | TreeLongestZigZag | DFS traversal | O(N) | O(N) |
-| 21 | MushroomPicker | Prefix Sum + Sliding Window | O(N) | O(N) |
-| 22 | ArraySwapToEqualSum | Hashing + Math Equation | O(N + M) | O(M) |
+| 19 | CountBoundedSlices | Sliding window | O(N) | O(1) |
+| 20 | FirstUnique | LinkedHashSet | O(N) | O(N) |
+| 21 | TreeLongestZigZag | DFS traversal | O(N) | O(N) |
+| 22 | MushroomPicker | Prefix Sum + Sliding Window | O(N) | O(N) |
+| 23 | ArraySwapToEqualSum | Hashing + Math Equation | O(N + M) | O(M) |
 
 
 #### Hard Problems
