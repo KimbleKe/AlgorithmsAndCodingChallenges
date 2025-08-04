@@ -37,5 +37,3 @@ def solution(A):
 
 	# If queue is exhausted and we never reach the end, return -1 (impossible)
 	return -1
-
-
