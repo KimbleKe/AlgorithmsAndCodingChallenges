@@ -114,7 +114,7 @@ __Table of Content__
 | 7 | MissingPositiveIntegerInArray | In-place hashing | O(N) | O(1) |
 | 8 | Flags | Prime and composite numbers, Peak Detection, Binary Search, Greedy Placement | O(N) | O(N) |
 | 9 | Peaks | Prime and composite numbers, Prefix Sum + Divisors Check | O(N * √N) | O(N) |
-| 10 | CountNonDivisible | Sieve of Eratosthenes, Divisor Counting, Frequency Map | O(N log N) | O(N + max(A)) |
+| 10 | CountNonDivisible | Sieve of Eratosthenes, Divisor Counting, Frequency Map | O(N * log M) | O(N + M) |
 | 11 | CountSemiPrimesSieveOfEratosthenes | Sieve of Eratosthenes, Prefix Sum | O(N log log N + M) | O(N) |
 | 12 | CommonPrimeDivisors | GCD with Prime Divisors Elimination | O(N * log^2(M)) | O(1) |
 | 13 | FibonacciFrogJump | Fibonacci numbers, BFS with Fibonacci bounds | O(N * sqrt(N)) | O(N) |
