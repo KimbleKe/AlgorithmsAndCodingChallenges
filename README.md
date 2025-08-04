@@ -90,14 +90,15 @@ __Table of Content__
 | 26 | TieRopes | Greedy Accumulation | O(N) | O(1) |
 | 27 | AbsoluteDistinctValue | Caterpillar or Hash Set + Absolute Value | O(N) | O(N) |
 | 28 | CountDistinctSlices | Caterpillar, Sliding Window (Two Pointers) | O(N) | O(M) |
+| 29 | CountTriangles | Caterpillar, Sorting + Two Pointers | O(N²) | O(1) |
 --
-| 29 | DoubleDigitsSum | Mathematical operations | O(1) | O(1) |
-| 30 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
-| 31 | IncreaseTheDigits | String manipulation | O(N) | O(N) |
-| 32 | ArrListLen | Linked list traversal | O(N) | O(1) |
-| 33 | StrSymmetryPoint | String palindrome check | O(N) | O(1) |
-| 34 | TreeHeight | DFS/BFS traversal | O(N) | O(N) |
-| 35 | Array Reversal | In-Place Swapping | O(N) | O(1) |
+| 30 | DoubleDigitsSum | Mathematical operations | O(1) | O(1) |
+| 31 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
+| 32 | IncreaseTheDigits | String manipulation | O(N) | O(N) |
+| 33 | ArrListLen | Linked list traversal | O(N) | O(1) |
+| 34 | StrSymmetryPoint | String palindrome check | O(N) | O(1) |
+| 35 | TreeHeight | DFS/BFS traversal | O(N) | O(N) |
+| 36 | Array Reversal | In-Place Swapping | O(N) | O(1) |
 
 
 #### Medium Problems
