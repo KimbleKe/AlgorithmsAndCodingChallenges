@@ -27,4 +27,3 @@ def solution(A):
 	
 	# return number of non-divisible for each elem in A 
 	return result
-
