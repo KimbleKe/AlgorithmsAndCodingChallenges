@@ -37,7 +37,7 @@ Write an efficient algorithm for the following assumptions:
 - the number of elements in matrix A is within the range [1..300,000];
 - each element of matrix A is an integer within the range [−1,000,000,000..1,000,000,000].
 
-------
+---
 
 Example test:
 

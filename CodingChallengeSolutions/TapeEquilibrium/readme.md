@@ -16,7 +16,7 @@ A = [-1000, 1000] → Output 2000 (Extreme values)
 > **Difficulty level**
 > easy
 
-----
+---
 
 Detailed problem description
 
