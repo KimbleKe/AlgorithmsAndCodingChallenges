@@ -1,4 +1,4 @@
-from solution import solution
+from solution import solution 
 
 # print input and output
 if __name__ == "__main__":
@@ -10,10 +10,10 @@ if __name__ == "__main__":
   input_file = sys.argv[1]
   with open(input_file, 'r') as f:
     line = f.read().strip()
-    A = eval(line)
+    A = eval(line) 
 
   print("######## input ########")
-  print("input=" + str(A))
+  print("A=" + str(A))
 
   result = solution(A)
 

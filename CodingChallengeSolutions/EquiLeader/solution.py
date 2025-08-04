@@ -2,6 +2,8 @@
 # date: 2025.7.21
  
 # this problem is extended version of Dominator problem
+# the core idea here is firstly finding the global leader, 
+# then count the number of indices (where global leader locate) where there are equileaders
 # O(N) Time, O(1) Space
 def solution(A):
 	if not A:

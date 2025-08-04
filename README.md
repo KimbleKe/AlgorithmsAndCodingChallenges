@@ -55,80 +55,87 @@ __Table of Content__
 ## Coding challenges
 
 #### Total number of challenges
-- Easy=31, Medium=17, Hard=10
-- Total=58
+- Easy=32, Medium=22, Hard=5
+- Total=59
 
 #### Easy Problems
 
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
 |---|-------------|--------------------|-----------------|------------------|
-| 1 | DoubleDigitsSum | Mathematical operations | O(1) | O(1) |
-| 2 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
-| 3 | IncreaseTheDigits | String manipulation | O(N) | O(N) |
-| 4 | BinaryGap | Bit manipulation | O(log N) | O(log N) |
-| 5 | CyclicRotation | Array rotation with modulo | O(N) | O(N) |
-| 6 | ArrListLen | Linked list traversal | O(N) | O(1) |
-| 7 | CountDivisibles | Prefix sums | O(1) | O(1) |
-| 8 | DistinctValuesInArray | HashSet tracking | O(N) | O(N) |
-| 9 | FrogJump | Ceiling division | O(1) | O(1) |
-| 10 | FrogRiverOne | HashSet tracking | O(N) | O(N) |
-| 11 | MaxProductOfThree | Sorting + greedy | O(N log N) | O(1) |
-| 12 | MaxProfit | Single pass (Kadane-like) | O(N) | O(1) |
-| 13 | MissingInteger | HashSet tracking | O(N) | O(N) |
+| 1 | BinaryGap | Bit manipulation | O(log N) | O(log N) |
+| 2 | CyclicRotation | Array rotation with modulo | O(N) | O(N) |
+| 3 | OddOccurrencesInArray | Bitwise XOR | O(N) | O(1) |
+| 4 | FrogJump | Ceiling division | O(1) | O(1) |
+| 5 | PermutationMissingElem | Mathematical formula | O(N) | O(1) |
+| 6 | TapeEquilibrium | Prefix sums | O(N) | O(1) |
+| 7 | FrogRiverOne | HashSet tracking | O(N) | O(N) |
+| 8 | PermutationCheck | HashSet validation | O(N) | O(N) |
+| 9 | PassingCars | Prefix sums | O(N) | O(1) |
+| 10 | MissingInteger | HashSet tracking | O(N) | O(N) |
+| 11 | DistinctValuesInArray | HashSet tracking | O(N) | O(N) |
+| 12 | MaxProductOfThree | Sorting + greedy | O(N log N) | O(1) |
+| 13 | TriangleTriplet | Sorting + greedy | O(N log N) | O(1) |
 | 14 | NestedBrackets | Stack validation | O(N) | O(N) |
 | 15 | NestingBrackets | Stack validation, Balance counting | O(N) | O(1) |
 | 16 | Fish | Stack simulation | O(N) | O(N) |
 | 17 | StoneWall | Stack tracking | O(N) | O(N) |
 | 18 | Dominator | Leader, Moore's voting | O(N) | O(1) |
 | 19 | EquiLeader | Leader + prefix sums | O(N) | O(N) |
-| 20 | OddOccurrencesInArray | Bitwise XOR | O(N) | O(1) |
-| 21 | PassingCars | Prefix sums | O(N) | O(1) |
-| 22 | PermutationMissingElem | Mathematical formula | O(N) | O(1) |
-| 23 | PermutationCheck | HashSet validation | O(N) | O(N) |
-| 24 | StrSymmetryPoint | String palindrome check | O(N) | O(1) |
-| 25 | TapeEquilibrium | Prefix sums | O(N) | O(1) |
-| 26 | TreeHeight | DFS/BFS traversal | O(N) | O(N) |
-| 27 | TriangleTriplet | Sorting + greedy | O(N log N) | O(1) |
-| 28 | CountFactors | Optimized Trial Division | O(√N) | O(1) |
-| 29 | MinimumPerimeterRectangle | Optimized Trial Division | O(√N) | O(1) |
-| 30 | AbsoluteDistinctValue | Hash Set + Absolute Value | O(N) | O(N) |
-| 31 | Array Reversal | In-Place Swapping | O(N) | O(1) |
+| 20 | MaxProfit | MaxSlice, Single pass (Kadane-like) | O(N) | O(1) |
+| 21 | MaxSliceSum | MaxSlice, Kadane's algorithm | O(N) | O(1) |
+| 22 | CountFactors | Prime and composite numbers, Optimized Trial Division | O(√N) | O(1) |
+| 23 | MinimumPerimeterRectangle | Prime and composite numbers, Optimized Trial Division | O(√N) | O(1) |
+| 24 | ChocolatesByNumber | Math (Least Common Multiple LCM and Greatest Common Divisor GCD with Euclidean Algorithm) | O(log N) | O(1) |
+| 25 | AbsoluteDistinctValue | Hash Set + Absolute Value | O(N) | O(N) |
+---
+| 26 | DoubleDigitsSum | Mathematical operations | O(1) | O(1) |
+| 27 | BugFixingReverseNumber | Debugging/edge cases | O(1) | O(1) |
+| 28 | IncreaseTheDigits | String manipulation | O(N) | O(N) |
+| 29 | ArrListLen | Linked list traversal | O(N) | O(1) |
+| 30 | StrSymmetryPoint | String palindrome check | O(N) | O(1) |
+| 31 | TreeHeight | DFS/BFS traversal | O(N) | O(N) |
+| 32 | Array Reversal | In-Place Swapping | O(N) | O(1) |
 
 
 #### Medium Problems
 
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
 |---|-------------|--------------------|-----------------|------------------|
-| 1 | CountBoundedSlices | Sliding window | O(N) | O(1) |
-| 2 | FirstUnique | LinkedHashSet | O(N) | O(N) |
+| 1 | MaxCounters | Lazy propagation | O(N+M) | O(N) |
+| 2 | CountDivisibles | Prefix sums | O(1) | O(1) |
 | 3 | GenomicRangeQuery | Prefix sums | O(N+M) | O(N) |
-| 4 | MaxCounters | Lazy propagation | O(N+M) | O(N) |
-| 5 | MaxSliceSum | Kadane's algorithm | O(N) | O(1) |
-| 6 | MinAbsSumOfTwo | Sorting + two pointers | O(N log N) | O(1) |
-| 7 | MinimumAverageSlice | Prefix sums | O(N) | O(1) |
-| 8 | MissingPositiveIntegerInArray | In-place hashing | O(N) | O(1) |
-| 9 | TreeLongestZigZag | DFS traversal | O(N) | O(N) |
-| 10 | MaxDoubleSlice | Prefix Sums, Kadane's algorithm, DynamicProgramming | O(N) | O(N) |
-| 11 | CountNonDivisible | Divisor Counting + Frequency Map | O(N log N) | O(N + max(A)) |
-| 12 | ChocolatesByNumber | Math (Least Common Multiple LCM and Greatest Common Divisor GCD with Euclidean Algorithm) | O(log N) | O(1) |
-| 13 | CommonPrimeDivisors | GCD with Prime Divisors Elimination | O(N * log^2(M)) | O(1) |
-| 14 | MushroomPicker | Prefix Sum + Sliding Window | O(N) | O(N) |
-| 15 | ArraySwapToEqualSum | Hashing + Math Equation | O(N + M) | O(M) |
-| 16 | MinMaxDivision | Binary Search + Greedy Partitioning | O(N log S) | O(1) |
-| 17 | DiscIntersections | Line sweep algorithm | O(N log N) | O(N) |
+| 4 | MinimumAverageSlice | Prefix sums | O(N) | O(1) |
+| 5 | DiscIntersections | Soring, Line sweep algorithm | O(N log N) | O(N) |
+| 6 | MaxDoubleSlice | MaxSlice, Prefix Sums, Kadane's algorithm, DynamicProgramming | O(N) | O(N) |
+| 7 | MissingPositiveIntegerInArray | In-place hashing | O(N) | O(1) |
+| 8 | Flags | Prime and composite numbers, Peak Detection, Binary Search, Greedy Placement | O(N) | O(N) |
+| 9 | Peaks | Prime and composite numbers, Prefix Sum + Divisors Check | O(N * √N) | O(N) |
+| 10 | CountNonDivisible | Sieve of Eratosthenes, Divisor Counting, Frequency Map | O(N log N) | O(N + max(A)) |
+| 11 | CountSemiPrimesSieveOfEratosthenes | Sieve of Eratosthenes, Prefix Sum | O(N log log N + M) | O(N) |
+| 12 | CommonPrimeDivisors | GCD with Prime Divisors Elimination | O(N * log^2(M)) | O(1) |
+| 13 | FibonacciFrogJump | Fibonacci numbers, BFS with Fibonacci bounds | O(N * sqrt(N)) | O(N) |
+| 14 | FibonacciLadder | Fibonacci numbers, DP (Dynamic Programming) + Fibonacci with Bitwise Modulo | O(L + N) | O(N) |
+| 15 | MinMaxDivision | Binary Search + Greedy Partitioning | O(N log S) | O(1) |
+| 16 | NailingPlanks | Binary Search + Greedy Selection | O((N + M) log M) | O(M) |
+| 17 | MinAbsSumOfTwo | Caterpillar, Sorting + two pointers | O(N log N) | O(1) |
+---
+| 18 | CountBoundedSlices | Sliding window | O(N) | O(1) |
+| 19 | FirstUnique | LinkedHashSet | O(N) | O(N) |
+| 20 | TreeLongestZigZag | DFS traversal | O(N) | O(N) |
+| 21 | MushroomPicker | Prefix Sum + Sliding Window | O(N) | O(N) |
+| 22 | ArraySwapToEqualSum | Hashing + Math Equation | O(N + M) | O(M) |
 
 
 #### Hard Problems
 
 | # | Problem Name | Algorithm/Approach | Time Complexity | Space Complexity |
 |---|-------------|--------------------|-----------------|------------------|
-| 1 | ArrayInversionCount | Modified merge sort | O(N log N) | O(N) |
-| 2 | CountriesCount | DFS/BFS (flood fill) | O(N*M) | O(N*M) |
-| 3 | DisappearingPairs | Stack/DFS simulation | O(N) | O(N) |
-| 4 | PolygonConcavityIndex | Computational geometry | O(N) | O(1) |
-| 5 | Flags | Peak Detection, Binary Search, Greedy Placement | O(N) | O(N) |
-| 6 | Peaks | Prefix Sum + Divisors Check | O(N * √N) | O(N) |
-| 7 | CountSemiPrimesSieveOfEratosthenes | Sieve of Eratosthenes + Prefix Sum | O(N log log N + M) | O(N) |
-| 8 | FibonacciFrogJump | BFS with Fibonacci bounds | O(N * sqrt(N)) | O(N) |
-| 9 | FibonacciLadder | DP (Dynamic Programming) + Fibonacci with Bitwise Modulo | O(L + N) | O(N) |
-| 10 | NailingPlanks | Binary Search + Greedy Selection | O((N + M) log M) | O(M) |
+| 1 | MinAbsSum | DP with Knapsack Variant | O(N * S) | O(S) |
+---
+| 2 | ArrayInversionCount | Modified merge sort | O(N log N) | O(N) |
+| 3 | CountriesCount | DFS/BFS (flood fill) | O(N*M) | O(N*M) |
+| 4 | DisappearingPairs | Stack/DFS simulation | O(N) | O(N) |
+| 5 | PolygonConcavityIndex | Computational geometry | O(N) | O(1) |
+
+
+

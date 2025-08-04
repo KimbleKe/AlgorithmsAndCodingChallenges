@@ -32,6 +32,7 @@ Coding challenges and solutions
   - A.remove('x')
   - A.index(element)
   - A.count(element)
+  - list(A)
   - B = A.copy()
   - A+B
   - A*10
@@ -42,7 +43,9 @@ Coding challenges and solutions
   - zip(A,B)
   - sorted(zip(A, B), key=lambda x: x[0])
   - ''.join(stack)
-- [::1], [::-1]
+- slice notation
+  - [::1]  # creates a shallow copy of a sequence (e.g., list, string, tuple)
+  - [::-1]  # reverse the sequence of array or stack
 - sum(A), max(A), min(A)
 
 **hashset**
