@@ -38,7 +38,7 @@ An equi leader is an index S such that 0 ≤ S < N − 1 and two sequences A[0],
 For example, given array A such that:
 
 A[0] = 4 A[1] = 3 A[2] = 4 A[3] = 4 A[4] = 4 A[5] = 2
-content_copy
+
 we can find two equi leaders:
 
 0, because sequences: (4) and (3, 4, 4, 4, 2) have the same leader, whose value is 4.
@@ -48,14 +48,14 @@ The goal is to count the number of equi leaders.
 Write a function:
 
 class Solution { public int solution(int[] A); }
-content_copy
+
 
 that, given a non-empty array A consisting of N integers, returns the number of equi leaders.
 
 For example, given:
 
 A[0] = 4 A[1] = 3 A[2] = 4 A[3] = 4 A[4] = 4 A[5] = 2
-content_copy
+
 the function should return 2, as explained above.
 
 Write an efficient algorithm for the following assumptions:

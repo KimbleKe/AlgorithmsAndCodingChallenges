@@ -44,13 +44,13 @@ We assume that all the fish are flowing at the same speed. That is, fish moving 
 For example, consider arrays A and B such that:
 
 A[0] = 4 B[0] = 0 A[1] = 3 B[1] = 1 A[2] = 2 B[2] = 0 A[3] = 1 B[3] = 0 A[4] = 5 B[4] = 0
-content_copy
+
 Initially all the fish are alive and all except fish number 1 are moving upstream. Fish number 1 meets fish number 2 and eats it, then it meets fish number 3 and eats it too. Finally, it meets fish number 4 and is eaten by it. The remaining two fish, number 0 and 4, never meet and therefore stay alive.
 
 Write a function:
 
 class Solution { public int solution(int[] A, int[] B); }
-content_copy
+
 
 that, given two non-empty arrays A and B consisting of N integers, returns the number of fish that will stay alive.
 

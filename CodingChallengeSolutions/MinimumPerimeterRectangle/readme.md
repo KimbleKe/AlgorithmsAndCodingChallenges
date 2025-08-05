@@ -43,7 +43,7 @@ For example, given integer N = 30, rectangles of area 30 are:
 Write a function:
 
 class Solution { public int solution(int N); }
-content_copy
+
 
 that, given an integer N, returns the minimal perimeter of any rectangle whose area is exactly equal to N.
 

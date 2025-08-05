@@ -47,7 +47,7 @@ For a given integer K, the goal is to tie the ropes in such a way that the numbe
 For example, consider K = 4 and array A such that:
 
 A[0] = 1 A[1] = 2 A[2] = 3 A[3] = 4 A[4] = 1 A[5] = 1 A[6] = 3
-content_copy
+
 The ropes are shown in the figure below.
 ![img1](./img1.png)
 
@@ -61,14 +61,14 @@ After that, there will be three ropes whose lengths are greater than or equal to
 Write a function:
 
 class Solution { public int solution(int K, int[] A); }
-content_copy
+
 
 that, given an integer K and a non-empty array A of N integers, returns the maximum number of ropes of length greater than or equal to K that can be created.
 
 For example, given K = 4 and array A such that:
 
 A[0] = 1 A[1] = 2 A[2] = 3 A[3] = 4 A[4] = 1 A[5] = 1 A[6] = 3
-content_copy
+
 the function should return 3, as explained above.
 
 Write an efficient algorithm for the following assumptions:

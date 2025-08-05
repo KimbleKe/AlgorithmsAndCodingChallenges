@@ -44,7 +44,7 @@ The goal is to count the number of chocolates that you will eat, following the a
 Write a function:
 
 class Solution { public int solution(int N, int M); }
-content_copy
+
 
 that, given two positive integers N and M, returns the number of chocolates that you will eat.
 

@@ -39,7 +39,7 @@ After the game finishes (when the pebble is standing on square number N − 1), 
 For example, given the following array:
 
 A[0] = 1 A[1] = -2 A[2] = 0 A[3] = 9 A[4] = -1 A[5] = -2
-content_copy
+
 one possible game could be as follows:
 
 the pebble is on square number 0, which is marked;
@@ -51,14 +51,14 @@ The marked squares are 0, 3 and 5, so the result of the game is 1 + 9 + (−2) =
 Write a function:
 
 def solution(A)
-content_copy
+
 
 that, given a non-empty array A of N integers, returns the maximal result that can be achieved on the board represented by array A.
 
 For example, given the array
 
 A[0] = 1 A[1] = -2 A[2] = 0 A[3] = 9 A[4] = -1 A[5] = -2
-content_copy
+
 the function should return 8, as explained above.
 
 Write an efficient algorithm for the following assumptions:

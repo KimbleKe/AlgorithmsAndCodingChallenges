@@ -47,7 +47,7 @@ We say that the set of segments is non-overlapping if it contains no two overlap
 For example, consider arrays A, B such that:
 
 A[0] = 1 B[0] = 5 A[1] = 3 B[1] = 6 A[2] = 7 B[2] = 8 A[3] = 9 B[3] = 9 A[4] = 9 B[4] = 10
-content_copy
+
 The segments are shown in the figure below.
 ![img1](./img1.png)
 
@@ -57,7 +57,7 @@ The size of a non-overlapping set containing a maximal number of segments is 3. 
 Write a function:
 
 class Solution { public int solution(int[] A, int[] B); }
-content_copy
+
 
 that, given two arrays A and B consisting of N integers, returns the size of a non-overlapping set containing a maximal number of segments.
 

@@ -55,14 +55,14 @@ For a given array A, we are looking for such a sequence S that minimizes val(A,S
 Write a function:
 
 class Solution { public int solution(int[] A); }
-content_copy
+
 
 that, given an array A of N integers, computes the minimum value of val(A,S) from all possible values of val(A,S) for all possible sequences S of N integers from the set {−1, 1}.
 
 For example, given array:
 
 A[0] = 1 A[1] = 5 A[2] = 2 A[3] = -2
-content_copy
+
 your function should return 0, since for S = [−1, 1, −1, 1], val(A, S) = 0, which is the minimum possible value.
 
 Write an efficient algorithm for the following assumptions:

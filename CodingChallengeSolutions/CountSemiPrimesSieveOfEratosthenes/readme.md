@@ -42,7 +42,7 @@ Query K requires you to find the number of semiprimes within the range (P[K], Q[
 For example, consider an integer N = 26 and arrays P, Q such that:
 
 P[0] = 1 Q[0] = 26 P[1] = 4 Q[1] = 10 P[2] = 16 Q[2] = 20
-content_copy
+
 The number of semiprimes within each of these ranges is as follows:
 
 (1, 26) is 10,
@@ -51,14 +51,14 @@ The number of semiprimes within each of these ranges is as follows:
 Write a function:
 
 class Solution { public int[] solution(int N, int[] P, int[] Q); }
-content_copy
+
 
 that, given an integer N and two non-empty arrays P and Q consisting of M integers, returns an array consisting of M elements specifying the consecutive answers to all the queries.
 
 For example, given an integer N = 26 and arrays P, Q such that:
 
 P[0] = 1 Q[0] = 26 P[1] = 4 Q[1] = 10 P[2] = 16 Q[2] = 20
-content_copy
+
 the function should return the values [10, 4, 0], as explained above.
 
 Write an efficient algorithm for the following assumptions:

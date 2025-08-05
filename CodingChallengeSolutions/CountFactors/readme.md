@@ -34,7 +34,7 @@ For example, 6 is a factor of 24, because M = 4 satisfies the above condition (2
 Write a function:
 
 class Solution { public int solution(int N); }
-content_copy
+
 
 that, given a positive integer N, returns the number of its factors.
 

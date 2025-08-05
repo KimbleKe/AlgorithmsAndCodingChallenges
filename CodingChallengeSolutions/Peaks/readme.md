@@ -34,7 +34,7 @@ A peak is an array element which is larger than its neighbors. More precisely, i
 For example, the following array A:
 
 A[0] = 1 A[1] = 2 A[2] = 3 A[3] = 4 A[4] = 3 A[5] = 4 A[6] = 1 A[7] = 2 A[8] = 3 A[9] = 4 A[10] = 6 A[11] = 2
-content_copy
+
 has exactly three peaks: 3, 5, 10.
 
 We want to divide this array into blocks containing the same number of elements. More precisely, we want to choose a number K that will yield the following blocks:
@@ -59,7 +59,7 @@ The maximum number of blocks that array A can be divided into is three.
 Write a function:
 
 def solution(A)
-content_copy
+
 
 that, given a non-empty array A consisting of N integers, returns the maximum number of blocks into which A can be divided.
 
@@ -68,7 +68,7 @@ If A cannot be divided into some number of blocks, the function should return 0.
 For example, given:
 
 A[0] = 1 A[1] = 2 A[2] = 3 A[3] = 4 A[4] = 3 A[5] = 4 A[6] = 1 A[7] = 2 A[8] = 3 A[9] = 4 A[10] = 6 A[11] = 2
-content_copy
+
 the function should return 3, as explained above.
 
 Write an efficient algorithm for the following assumptions:

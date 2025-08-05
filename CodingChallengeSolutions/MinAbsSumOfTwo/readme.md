@@ -29,7 +29,7 @@ The abs sum of two for a pair of indices (P, Q) is the absolute value |A[P] + A[
 For example, the following array A:
 
 A[0] = 1 A[1] = 4 A[2] = -3
-content_copy
+
 has pairs of indices (0, 0), (0, 1), (0, 2), (1, 1), (1, 2), (2, 2). 
 
  The abs sum of two for the pair (0, 0) is A[0] + A[0] = |1 + 1| = 2. 
@@ -48,20 +48,20 @@ has pairs of indices (0, 0), (0, 1), (0, 2), (1, 1), (1, 2), (2, 2).
 Write a function:
 
 def solution(A)
-content_copy
+
 
 that, given a non-empty array A consisting of N integers, returns the minimal abs sum of two for any pair of indices in this array.
 
 For example, given the following array A:
 
 A[0] = 1 A[1] = 4 A[2] = -3
-content_copy
+
 the function should return 1, as explained above.
 
 Given array A:
 
 A[0] = -8 A[1] = 4 A[2] = 5 A[3] =-10 A[4] = 3
-content_copy
+
 the function should return |(−8) + 5| = 3.
 
 Write an efficient algorithm for the following assumptions:
