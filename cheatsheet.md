@@ -49,6 +49,7 @@ Coding challenges and solutions
   - [::1]  # creates a shallow copy of a sequence (e.g., list, string, tuple)
   - [::-1]  # reverse the sequence of array or stack
 - sum(A), max(A), min(A)
+- [True], [False]
 
 **hashset**
 - S=set(), set(stack)

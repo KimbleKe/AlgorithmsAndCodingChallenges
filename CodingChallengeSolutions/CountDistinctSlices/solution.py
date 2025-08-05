@@ -4,17 +4,18 @@
 # Time complexity O(N)
 # Space complexity O(M+1)
 def solution(M, A):
-	N = len(A)
-	seen = [False] * (M + 1)
-	front = 0
-	total = 0
+  seen = [False] * (M + 1)
+  P = 0
+  total = 0
 
-	for back in range(N):
-		while front < N and not seen[A[front]]:
-			seen[A[front]] = True
-			total += front - back + 1
-			if total > 1000000000:
-				return 1000000000
-			front += 1
-		seen[A[back]] = False
-	return total
+  for Q in range(len(A)):
+    while seen[A[Q]]:
+      seen[A[P]] = False # remove A[P] from the sliding window, so it's no longer seen and the value can be used again later, basically move window forward
+      P += 1
+    seen[A[Q]] = True
+    total += (Q - P + 1)  # every time we see a new Q, count new slices ending at Q and beginning at P
+    
+    if total >= 1_000_000_000:
+      return 1_000_000_000
+
+  return total
