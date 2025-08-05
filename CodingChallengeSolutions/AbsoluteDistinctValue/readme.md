@@ -1,4 +1,6 @@
 1. Problem Description
+  compute number of distinct absolute values of sorted array elements.
+
 You are given an array A of N integers. Your task is to compute the number of distinct absolute values in the array.
 For example:
 A = [-5, -3, -1, 0, 3, 6] → Absolute values are [5, 3, 1, 0, 3, 6] → Distinct ones: [0, 1, 3, 5, 6] → Return 5.
