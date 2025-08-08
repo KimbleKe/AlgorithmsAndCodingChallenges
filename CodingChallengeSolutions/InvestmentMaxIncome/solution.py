@@ -1,3 +1,8 @@
+# author: Kimble Ke
+# date: 2025.8.8
+
+# Time complexity: O(N)
+# Space complexity: O(1)
 def solution(A):
 	mod = 1_000_000_000
 	N = len(A)

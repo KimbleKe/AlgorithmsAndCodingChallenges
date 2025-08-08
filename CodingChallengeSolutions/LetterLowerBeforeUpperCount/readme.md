@@ -11,6 +11,6 @@ key observation:
 <br><br><br>
 
 > **Difficulty level**
-> medium
+> easy
 
 

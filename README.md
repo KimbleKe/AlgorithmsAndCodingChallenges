@@ -55,7 +55,7 @@ __Table of Content__
 ## Coding challenges
 
 #### Total number of challenges
-- Easy=35, Medium=23, Hard=5
+- Easy=38, Medium=24, Hard=5
 - Total=63
 
 #### Easy Problems
@@ -99,6 +99,8 @@ __Table of Content__
 | 34 | StrSymmetryPoint | String palindrome check | O(N) | O(1) |
 | 35 | TreeHeight | DFS/BFS traversal | O(N) | O(N) |
 | 36 | Array Reversal | In-Place Swapping | O(N) | O(1) |
+| 37 | LongestSubArrayWithEqualOccurrences | Prefix Count Tracking | O(N) | O(1) |
+| 38 | LetterLowerBeforeUpperCount | HashMap + First/Last Position Tracking | O(N) | O(1) |
 
 
 #### Medium Problems
@@ -129,6 +131,7 @@ __Table of Content__
 | 21 | TreeLongestZigZag | DFS traversal | O(N) | O(N) |
 | 22 | MushroomPicker | Prefix Sum + Sliding Window | O(N) | O(N) |
 | 23 | ArraySwapToEqualSum | Hashing + Math Equation | O(N + M) | O(M) |
+| 24 | InvestmentMaxIncome | Greedy Peak-Valley Traversal | O(N) | O(1) |
 
 
 #### Hard Problems
