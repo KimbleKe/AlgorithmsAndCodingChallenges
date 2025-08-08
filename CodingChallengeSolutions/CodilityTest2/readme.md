@@ -6,6 +6,8 @@ example 1.
 100,63,[100,63,1,6,2,13], the answer is 5
 example 2.
 7,42,[6,42,11,7,1,42], the answer is 4
+example 3.
+6,13,[13,13,1,6], the answer is -1
 
 There is an error in the given code, need to fix the code.
 
