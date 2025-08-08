@@ -1,6 +1,6 @@
 Problem:
 
-there are N points on a plane, numbered from 0 to N-1, the coordinates of the K-th point are X[K], Y[K], find any triangle with vertices at three of the given points, such that no other point lies inside this triangle (and no other points, except vertices, on the boundary of the triangle). the triangle must have a positive area. 
+There are N points on a plane, numbered from 0 to N-1, the coordinates of the K-th point are X[K], Y[K], find any triangle with vertices at three of the given points, such that no other point lies inside this triangle (and no other points, except vertices, on the boundary of the triangle). the triangle must have a positive area. 
 
 given 2 arrays X and Y consisting of N integers each, representing points on the plan, return an array B consisting of exactly three integers, such that the points with indices B[0], B[1], B[2] form an empty triangle
 
