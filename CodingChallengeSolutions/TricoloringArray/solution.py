@@ -1,36 +1,39 @@
 # author: Kimble Ke
 # date: 2025.8.8
 
+
+
 def solution(A):
 	N = len(A)
-	if N == 0:
-		return ""
+	if N == 0 or not A:
+		return "impossible"
 	
-	def backtrack(index, sumR, sumG, sumB, coloring):
-		if index == N:
+	def backtrack(idx, sumR, sumG, sumB, stableTricoloring):
+		if idx == N:
 			if sumR == sumG == sumB:
-				return "".join(coloring)
+				return "".join(stableTricoloring)
 			return None
 		
+    # Try B
+		stableTricoloring.append('B')
+		r = backtrack(idx + 1, sumR, sumG, sumB + A[idx], stableTricoloring)
+		if r: return r
+		stableTricoloring.pop()
+		
+    # Try G
+		stableTricoloring.append('G')
+		r = backtrack(idx + 1, sumR, sumG + A[idx], sumB, stableTricoloring)
+		if r: return r
+		stableTricoloring.pop()
+		
 		# Try R
-		coloring.append('R')
-		res = backtrack(index + 1, sumR + A[index], sumG, sumB, coloring)
-		if res: return res
-		coloring.pop()
-		
-		# Try G
-		coloring.append('G')
-		res = backtrack(index + 1, sumR, sumG + A[index], sumB, coloring)
-		if res: return res
-		coloring.pop()
-		
-		# Try B
-		coloring.append('B')
-		res = backtrack(index + 1, sumR, sumG, sumB + A[index], coloring)
-		if res: return res
-		coloring.pop()
+		stableTricoloring.append('R')
+		r = backtrack(idx + 1, sumR + A[idx], sumG, sumB, stableTricoloring)
+		if r: return r
+		stableTricoloring.pop()
 		
 		return None
 
-	result = backtrack(0, 0, 0, 0, [])
-	return result if result else "impossible"
+	stableTricoloringOutput = backtrack(0, 0, 0, 0, [])
+	
+	return stableTricoloringOutput if stableTricoloringOutput else "impossible"

@@ -55,8 +55,8 @@ __Table of Content__
 ## Coding challenges
 
 #### Total number of challenges
-- Easy=38, Medium=24, Hard=5
-- Total=63
+- Easy=38, Medium=24, Hard=7
+- Total=65
 
 #### Easy Problems
 
@@ -144,6 +144,9 @@ __Table of Content__
 | 3 | CountriesCount | DFS/BFS (flood fill) | O(N*M) | O(N*M) |
 | 4 | DisappearingPairs | Stack/DFS simulation | O(N) | O(N) |
 | 5 | PolygonConcavityIndex | Computational geometry | O(N) | O(1) |
+| 6 | PositiveAreaTriangle | Geometry (Area + Point-in-Triangle) | O(N^3) | O(1) |
+| 7 | TricoloringArray | Backtracking, recursion | O(3^N) | O(N) |
+
 
 
 
