@@ -146,7 +146,3 @@ __Table of Content__
 | 5 | PolygonConcavityIndex | Computational geometry | O(N) | O(1) |
 | 6 | PositiveAreaTriangle | Geometry (Area + Point-in-Triangle) | O(N^3) | O(1) |
 | 7 | TricoloringArray | Backtracking, recursion | O(3^N) | O(N) |
-
-
-
-
