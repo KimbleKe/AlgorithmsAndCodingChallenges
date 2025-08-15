@@ -18,7 +18,7 @@ __Table of Content__
   - Search
     - Array search: linearSearch, binarySearch, jumpSearch, exponentialSearch, fibonacciSearch, interpolationSearch, blockSearch
     - Tree graph search: bestFirstSearch, bidirectionalSearch, breadthFirstSearch, depthFirstSearch, dijkstra, iterativeDeepeningDFS, uniformCostSearch
-    - Graph algorithm: DFS/BFS, dijkstra, Bellman-Ford, Floyd-Warshall, Kruskal / Prim - Minimum Spanning Tree (MST), topologicalSort, Tarjan’s / Kosaraju’s, Union-Find / Disjoint Sets, A* Search 
+    - Graph algorithm: DFS/BFS, dijkstra, Bellmamn-Ford, Floyd-Warshall, Kruskal / Prim - Minimum Spanning Tree (MST), topologicalSort, Tarjan’s / Kosaraju’s, Union-Find / Disjoint Sets, A* Search 
   - Sorting
     - bubbleSort, countingSort, heapSort, insertionSort, mergeSort, quickSort, radixSort, selectionSort, shellSort, timSort
   - Dynamic Programming(DP)
